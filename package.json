@@ -1,0 +1,17 @@
+{
+  "name": "Hugo Bootstrap Framework (HB)",
+  "homepage": "https://github.com/razonyang/hb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razonyang/hb.git"
+  },
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/razonyang/hb/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}

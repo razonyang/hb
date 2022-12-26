@@ -1,0 +1,17 @@
+[module.hugoVersion]
+extended = true
+
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-base"
+
+[[module.imports]]
+path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+
+[params.hugopress.modules.hb.hooks.head-begin]
+
+[params.hugopress.modules.hb.hooks.head-end]
+
+[params.hugopress.modules.hb.hooks.body-end]
