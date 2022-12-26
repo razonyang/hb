@@ -8,5 +8,11 @@ HB supports [HugoPress](https://github.com/razonyang/hugopress), so you can use 
 
 | Module | Description
 |---|---
-| [Header](https://github.com/razonyang/hb-header) |
-| [Footer](https://github.com/razonyang/hb-footer) |
+| [Header Module](https://github.com/razonyang/hb-header) | Universal Header.
+| [Footer Module](https://github.com/razonyang/hb-footer) | Universal Footer.
+| [Base Module](https://github.com/razonyang/hb-base) | Base Module for Other Modules.
+| [Back to Top Module](https://github.com/razonyang/hb-back-to-top) | Back to Top Button.
+| [PWA Module](https://github.com/razonyang/hb-pwa) | PWA / Service Worker Module.
+| [Breadcrumb Module](https://github.com/razonyang/hb-breadcrumb) | Breadcrumb Module.
+| [Blog Module](https://github.com/razonyang/hb-blog) | Blog Module.
+| [Docs Module](https://github.com/razonyang/hb-docs) | Docs Module.
