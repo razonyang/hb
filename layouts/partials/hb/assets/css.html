@@ -10,7 +10,6 @@
   {{/* SCSS options. */}}
   {{- $options := dict
     "targetPath" (printf "css/hb%s.css" $suffix)
-    "transpiler" "dartsass"
     "enableSourceMap" hugo.IsProduction
   }}
   {{- if hugo.IsProduction }}
