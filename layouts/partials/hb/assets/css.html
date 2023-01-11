@@ -4,8 +4,8 @@
   {{- $dirs = $dirs | append "rtl" }}
 {{- end }}
 {{- $page := . }}
-{{- $context := (
-  "params" $page.Site.Params )
+{{- $context := dict
+  "params" $page.Site.Params
 }}
 {{- range $dir := $dirs }}
   {{- $rtl := eq $dir "rtl" }}
