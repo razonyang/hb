@@ -4,6 +4,9 @@
   {{- $dirs = $dirs | append "rtl" }}
 {{- end }}
 {{- $page := . }}
+{{- $context := dict
+  "params" $page.Site.Params
+}}
 {{- range $dir := $dirs }}
   {{- $rtl := eq $dir "rtl" }}
   {{- $suffix := cond $rtl ".rtl" "" }}
@@ -20,7 +23,7 @@
   {{/* Load style template. */}}
   {{- $tmpl := resources.Get "hb/scss/index.tmpl.scss" }}
   {{/* Compile SCSS. The target path MUST begin with "hb/scss/*" for resolving SASS/SCSS modules. */}}
-  {{- $style := $tmpl | resources.ExecuteAsTemplate (printf "hb/scss/index%s.scss" $suffix) $page }}
+  {{- $style := $tmpl | resources.ExecuteAsTemplate (printf "hb/scss/index%s.scss" $suffix) $context }}
   {{/* warnf "[hb] %s:\n%s\n" $style.Name $style.Content */}}
   {{- $style = $style | toCSS $options }}
   {{- $postCSSOpts := dict

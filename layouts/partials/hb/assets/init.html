@@ -1,9 +1,10 @@
 {{/* JS compile options. */}}
-{{- $params := .Site.Params }}
+{{- $params := dict
+  "site" .Site.Params
+}}
 {{- $options := dict
   "sourceMap" (cond hugo.IsProduction "" "inline")
   "minify" hugo.IsProduction
-  "target" "es2018"
   "params" $params
   "targetPath" "js/init.js"
 }}
