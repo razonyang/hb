@@ -1,3 +1,4 @@
+{{- $page := . }}
 {{/* JS compile options. */}}
 {{- $params := dict
   "site" .Site.Params
@@ -13,6 +14,16 @@
 {{/* warnf "[hb] %s:\n%s\n" $js.Name $js.Content */}}
 {{/* Compile JS. */}}
 {{- $js = $js | js.Build $options }}
+{{- $js = slice $js }}
+{{/* Append third-party self-complied JS resources. */}}
+{{- range $name, $module := .Site.Params.hb.modules }}
+  {{- with .js_resources }}
+    {{- range . }}
+      {{- $js = $js | append (partialCached .partial $page) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $js = $js | resources.Concat "js/hb.js" }}
 {{- if hugo.IsProduction }}
   {{- $js = $js | fingerprint }}
 {{- end }}
