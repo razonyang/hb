@@ -1,2 +1,5 @@
 [[module.imports]]
 path = "github.com/razonyang/hb"
+
+[params.hb.progress_bar]
+# height = "3px"
