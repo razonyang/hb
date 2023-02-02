@@ -1,4 +1,5 @@
 classes = [
+    "d-none",
     "hb-progress-bar",
     "position-fixed",
     "progress",

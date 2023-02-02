@@ -1,4 +1,6 @@
-.hb-progress-bar {
-    height: 2px;
+$hb-progress-bar-height: 2px !default;
+
+.hb-progress {
+    height: $hb-progress-bar-height;
     z-index: 1100;
 }
