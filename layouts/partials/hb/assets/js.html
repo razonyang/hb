@@ -1,8 +1,6 @@
 {{- $page := . }}
 {{/* JS compile options. */}}
-{{- $params := dict
-  "site" .Site.Params
-}}
+{{- $params := .Site.Params.hb }}
 {{- $options := dict
   "sourceMap" (cond hugo.IsProduction "" "inline")
   "minify" hugo.IsProduction
