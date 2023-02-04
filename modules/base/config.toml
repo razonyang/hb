@@ -1,0 +1,17 @@
+[module.hugoVersion]
+extended = true
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/footer"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
+[params.hb.terms]
+paginate = 9
