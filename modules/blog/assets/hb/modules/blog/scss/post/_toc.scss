@@ -1,0 +1,22 @@
+.hb-blog-post-toc {
+    @include media-breakpoint-down(xxl) {
+        color: var(--#{$prefix}body-color) !important;
+        margin: 0.5rem 0 1rem;
+
+        #TableOfContents {
+            border-bottom: 1px solid var(--#{$prefix}border-color);
+            font-size: 1rem !important;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {
+        height: calc(100vh - #{$hb-blog-toc-top});
+        top: $hb-blog-toc-top;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .hb-blog-post-toc-collapse {
+        display: block !important;
+    }
+}

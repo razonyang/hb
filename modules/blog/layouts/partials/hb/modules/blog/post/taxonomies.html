@@ -1,0 +1,9 @@
+{{- range $kind, $taxonomy := .Site.Taxonomies }}
+  {{ range ($.GetTerms $kind) }}
+    <a
+      class="hb-blog-post-taxonomy hb-blog-post-taxonomy-{{ $kind | singularize }}"
+      href="{{ .Permalink }}">
+      {{- .LinkTitle -}}
+    </a>
+  {{ end }}
+{{- end -}}

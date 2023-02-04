@@ -1,0 +1,17 @@
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/base"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/heading-sign"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
+[params.hb.blog]
+paginate = 9
+post_date_format = ':date_long'
+
+[params.hb.heading_sign.containers.".hb-blog-post-content"]
