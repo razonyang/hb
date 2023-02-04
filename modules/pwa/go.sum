@@ -1,0 +1,16 @@
+github.com/GoogleChrome/workbox v6.5.4+incompatible h1:J4yOdtnLGsxom7oTS+mRegKJ5a+Wi4j2qfZ72AWRlOM=
+github.com/GoogleChrome/workbox v6.5.4+incompatible/go.mod h1:dyEoGLpJeO43pUVJb+nNNr1WRgoF81hNEl4UGLV+yow=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb/modules/base v0.1.0 h1:Ylp9oj0Yq2gCGV83ZLbaxd2/xKic/oYd3Mg0kJ70YgE=
+github.com/razonyang/hb/modules/base v0.1.0/go.mod h1:MQuoQsQvDDc+5j5HSrb0/5AyVRxYMf2QCnTeQjvIC60=
+github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
+github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-idb v0.1.0 h1:YUvilC3uxN1y/5pScFCKGzVT3Wt9gfKjLIYRnWpm7a0=
+github.com/razonyang/hugo-mod-idb v0.1.0/go.mod h1:+CxIx22+zAP2bOewK04EHly8bW5VeSYdoy8zmy6UL64=
+github.com/razonyang/hugo-mod-pwa v0.1.0 h1:6jRpWzZKCHOyGOhC+uOwK5deSEFMI5ctO11KYs1nAgc=
+github.com/razonyang/hugo-mod-pwa v0.1.0/go.mod h1:AyogD5I7yC7YGLWdaGBZx1XyqXNrZTswcjk4FdWi/uU=
+github.com/razonyang/hugopress v0.5.0 h1:3cUSiFQvjM9v4mkqVYdApEMLs7yB2B8vQg1ALV54CCw=
+github.com/razonyang/hugopress v0.5.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
+github.com/twbs/icons v1.10.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

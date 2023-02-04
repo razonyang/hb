@@ -1,0 +1,63 @@
+{{- define "title" }}
+  {{- printf "%s %s %s" (i18n "offline_title") .Site.Params.title_separator .Site.Title -}}
+{{- end -}}
+
+{{- define "main" }}
+  <div
+    class="hb-error h-100 d-flex flex-column justify-content-center align-items-center mb-5 py-5 text-center">
+    <div class="mb-4">
+      {{ partial "icons/icon" (dict
+        "vendor" "bootstrap"
+        "name" "wifi-off"
+        "width" "8rem"
+        "height" "8rem"
+        "className" "text-danger hb-error-icon")
+      }}
+    </div>
+    <h1 class="hb-error-title mb-4">{{ i18n "offline_title" }}</h1>
+    <div class="hb-error-info text-muted mb-4">
+      {{ i18n "offline_info" | markdownify }}
+    </div>
+    <div class="hb-error-actions">
+      <a
+        class="hb-error-action btn btn-primary"
+        href="{{ .Site.Home.RelPermalink }}">
+        {{- partial "icons/icon" (dict
+          "vendor" "bootstrap"
+          "name" "house"
+          "className" "hb-error-action-icon"
+          "width" "1rem"
+          "height" "1rem"
+          )
+        -}}
+        {{- i18n "home" -}}
+      </a>
+      <a
+        class="hb-error-action btn btn-secondary"
+        href="javascript: window.history.back();">
+        {{- partial "icons/icon" (dict
+          "vendor" "bootstrap"
+          "name" "arrow-left-circle"
+          "className" "hb-error-action-icon"
+          "width" "1rem"
+          "height" "1rem"
+          )
+        -}}
+        {{- i18n "go_back" -}}
+      </a>
+      <a
+        class="hb-error-action btn btn-success"
+        href="javascript: window.location.reload();">
+        {{- partial "icons/icon" (dict
+          "vendor" "bootstrap"
+          "name" "arrow-clockwise"
+          "className" "hb-error-action-icon"
+          "width" "1rem"
+          "height" "1rem"
+          )
+        -}}
+        {{- i18n "try_again" -}}
+      </a>
+    </div>
+  </div>
+{{- end -}}
