@@ -1,0 +1,27 @@
+{{- if gt (len .Sites) 1 }}
+  <div class="language-picker nav-item dropdown col-6">
+    <a
+      class="btn btn-link nav-link py-2 px-0 px-xxl-2 d-flex align-items-center"
+      href="#"
+      role="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "globe" "className" "my-1 language-picker-icon") }}
+      <span class="d-xxl-none ms-1">{{- .Language.LanguageName -}}</span>
+    </a>
+
+    <ul class="language-picker-menu dropdown-menu dropdown-menu-end">
+      {{- range .Sites }}
+        <li>
+          <a
+            class="language-picker-item dropdown-item{{ cond (eq .Language.Lang $.Language.Lang) ` active` `` }}"
+            href="{{ .LanguagePrefix | absURL }}"
+          >
+            {{- default .Language.Lang .Language.LanguageName -}}
+          </a>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+{{- end }}
