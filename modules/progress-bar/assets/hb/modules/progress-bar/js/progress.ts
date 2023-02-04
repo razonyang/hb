@@ -1,15 +1,21 @@
+import * as params from "@params";
+
 export default class Progress {
     private ele: HTMLElement
 
     private bar: HTMLElement
 
-    private width = 20
+    private width: number
 
-    private step = 1
+    private interval: number 
 
-    private interval = 25
+    private step: number
 
     constructor() {
+        this.width = params?.progress_bar?.width ?? 20
+        this.interval = params?.progress_bar?.interval ?? 50
+        const time = params?.progress_bar?.time ?? 2 
+        this.step = (100 - this.width) / time / 1000 * this.interval
         this.initBar()
         this.initProgress()
     }
@@ -26,7 +32,7 @@ export default class Progress {
     private initBar() {
         const bar = document.createElement('div')
         bar.className = 'progress-bar progress-bar-striped progress-bar-animated'
-        bar.style.width = this.width + 'px'
+        bar.style.width = this.width + '%'
         this.bar = bar
     }
 

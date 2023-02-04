@@ -2,4 +2,7 @@
 path = "github.com/razonyang/hb"
 
 [params.hb.progress_bar]
-# height = "3px"
+height = "2px" # the height of progress bar.
+initial_width = 20 # the initial width of progress bar.
+interval = 50 # the time interval for progress bar to update, in milliseconds.
+time = 2 # time taken for progress bar to complete, in seconds.
