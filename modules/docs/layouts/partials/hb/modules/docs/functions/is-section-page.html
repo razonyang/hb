@@ -1,0 +1,5 @@
+{{- $v := hasPrefix .Page.RelPermalink .Section.RelPermalink }}
+{{- if not $v }}
+  {{- $v = partial "hb/modules/docs/functions/is-child-section" (dict "Child" .Page.CurrentSection "Ancestor" .Section) }}
+{{- end }}
+{{- return $v -}}

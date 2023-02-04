@@ -1,0 +1,12 @@
+{{- define "main" }}
+  <div class="row">
+    <div class="col-xxl-2" tabindex="-1" data-bs-hide="focusout">
+      {{ partial "hb/modules/docs/nav" . }}
+    </div>
+    <div class="hb-docs-main col-12 col-xxl-10">
+      {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-begin") }}
+      {{ partial "hb/modules/docs/section" . }}
+      {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-end") }}
+    </div>
+  </div>
+{{- end -}}

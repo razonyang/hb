@@ -1,0 +1,13 @@
+{{- $tree := slice }}
+{{- $pages := sort .Pages "LinkTitle" }}
+{{- $sortField := "Params.nav_weight" }}
+{{- $weighted := sort (where $pages $sortField ">" 0) $sortField "asc" }}
+{{- range union $weighted $pages }}
+  {{- $children := slice }}
+  {{- if .IsSection }}
+    {{/* Dive deeper. */}}
+    {{- $children = partial "hb/modules/docs/functions/walk-section" . }}
+  {{- end }}
+  {{- $tree = $tree | append (dict "Page" . "Children" $children) }}
+{{- end }}
+{{- return $tree -}}
