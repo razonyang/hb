@@ -1,4 +1,4 @@
-module github.com/razonyang/hb/modules/docs/modules/comments-disqus
+module github.com/razonyang/hb/modules/docs/modules/disqus
 
 go 1.19
 
