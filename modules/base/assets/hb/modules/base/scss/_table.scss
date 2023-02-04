@@ -1,0 +1,15 @@
+table {
+    @extend .table;
+
+    @if $hb-table-bordered {
+        @extend .table-bordered;
+    }
+
+    @if $hb-table-hover {
+        @extend .table-hover;
+    }
+
+    @if $hb-table-striped {
+        @extend .table-striped;
+    }
+}

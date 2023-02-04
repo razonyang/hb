@@ -1,0 +1,17 @@
+{{- define "main" }}
+  <div
+    class="hb-error h-100 d-flex flex-column justify-content-center align-items-center text-center mb-5 py-5"
+  >
+    <div class="mb-4">
+      {{ partial "icons/icon" (dict
+        "vendor" "bootstrap"
+        "name" "exclamation-triangle-fill"
+        "width" "8rem"
+        "height" "8rem"
+        "className" "text-warning hb-error-icon")
+      }}
+    </div>
+    <h1 class="hb-error-title mb-4">{{ i18n "404_title" }}</h1>
+    <div class="hb-error-info text-muted">{{ i18n "404_info" }}</div>
+  </div>
+{{- end -}}

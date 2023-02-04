@@ -1,0 +1,29 @@
+#TableOfContents {
+    font-size: 0.875rem;
+
+    ul {
+        list-style: none;
+        padding-left: 1rem;
+
+        ul {
+            margin-top: 0.25rem;
+        }
+    }
+
+    > ul {
+        padding-left: 0;
+    }
+
+    li {
+        margin-bottom: 0.25rem;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

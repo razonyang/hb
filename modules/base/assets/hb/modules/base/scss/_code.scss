@@ -1,0 +1,22 @@
+code {
+    background: var(--#{$prefix}secondary-bg);
+    color: var(--hb#{$prefix}secondary-color);
+    padding: 0.125rem 0.25rem;
+}
+
+pre {
+    border-radius: 0.125rem;
+    padding: 0.75rem 0.5rem;
+
+    code {
+        background: inherit;
+    }
+}
+
+.highlight {
+    pre {
+        code {
+            padding: 0;
+        }
+    }
+}

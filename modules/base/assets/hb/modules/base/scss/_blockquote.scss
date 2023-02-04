@@ -1,0 +1,9 @@
+blockquote {
+    border-left: 0.25rem solid var(--#{$prefix}primary);
+    padding: 0.25rem 1rem;
+    position: relative;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
