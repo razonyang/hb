@@ -1,0 +1,18 @@
+{{- if and (not .IsHome) (not .Site.Params.hb.breadcrumb.disabled) -}}
+  <div class="hb-module container-xxl px-0">
+    <nav aria-label="breadcrumb">
+      <ol class="hb-breadcrumb breadcrumb">
+        {{- range .Ancestors.Reverse }}
+          <li class="breadcrumb-item">
+            <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+              {{- cond .IsHome (i18n "hb_breadcrumb_home") .Title -}}
+            </a>
+          </li>
+        {{- end -}}
+        <li class="breadcrumb-item active" aria-current="page">
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title -}}</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+{{- end -}}

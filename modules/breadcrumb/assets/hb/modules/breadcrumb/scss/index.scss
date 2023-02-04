@@ -1,0 +1,64 @@
+.hb-breadcrumb {
+    --#{$prefix}breadcrumb-margin-bottom: 0;
+    --#{$prefix}breadcrumb-divider: "";
+    --#{$prefix}link-color-rgb: var(--#{$prefix}body-secondary);
+
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .breadcrumb-item {
+        background: var(--#{$prefix}secondary-bg);
+        clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%, 1rem 50%);
+        margin-right: -0.875rem;
+        max-width: 360px;
+        overflow: hidden;
+        padding: 0.5rem 0rem;
+        text-overflow: ellipsis;
+
+        &.active,
+        &:focus,
+        &:hover,
+        &:active {
+            background: var(--#{$prefix}primary);
+            color: var(--#{$prefix}white);
+        }
+
+        a {
+            padding: 0.5rem 1.25rem 0.5rem 1.75rem;
+            text-decoration: none;
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+
+    .breadcrumb-item:first-child {
+        clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%);
+
+        a {
+            padding-left: 0.75rem;
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .breadcrumb-item {
+            max-width: 240px;
+            &:not(:first-child):not(:last-child) {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                width: 2rem;
+
+                a {
+                    display: none;
+                }
+
+                &::after {
+                    content: ".";
+                    margin-top: -0.5rem;
+                }
+            }
+        }
+    }
+}
