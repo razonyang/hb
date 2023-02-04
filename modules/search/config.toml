@@ -1,0 +1,11 @@
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-search"
+
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[params.hugopress.modules.search.hooks.head-end]
+disabled = true
