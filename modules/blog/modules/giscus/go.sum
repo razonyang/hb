@@ -1,0 +1,14 @@
+github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
+github.com/razonyang/hb v0.4.0/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
+github.com/razonyang/hb/modules/blog v0.1.0 h1:/9MO7Zy6XR0Y3MLVGMpXN+ORhn9zF3gDQDUts+M9bRU=
+github.com/razonyang/hb/modules/blog v0.1.0/go.mod h1:Kj7KwC4q/h12sZpXsnevvu++AG+rSw2B7fOU5u5u+F0=
+github.com/razonyang/hb/modules/footer v0.1.0 h1:sxCaGwhF2LZfezfYGE8kfQdyZe3oQ89AtH+tpY2ncns=
+github.com/razonyang/hb/modules/footer v0.1.0/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
+github.com/razonyang/hb/modules/giscus v0.1.0 h1:rfFVNSJbvhuhx9VXI1QRdlYn86iJ50qZNfeCHQ9KP0Q=
+github.com/razonyang/hb/modules/giscus v0.1.0/go.mod h1:kMP4u0J0CJ4LunuwiiJfDqHj4KIHWE7H64rlC8R7YEM=
+github.com/razonyang/hb/modules/header v0.1.0 h1:dZypRdabo/+NPsmyQP5o5Va7eTHo/1ZHnwr1sq+Se/8=
+github.com/razonyang/hb/modules/header v0.1.0/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hugo-mod-giscus v1.3.1 h1:/7ojODfEV6gfdWLeUuYNlru3tcrUO7k/t5J//pNS9Ro=
+github.com/razonyang/hugo-mod-giscus v1.3.1/go.mod h1:r3tKVPIdUg0xZbAfXZt8pMvwYpxkTT+J0q582qaZV38=
+github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=
+github.com/razonyang/hugopress v0.6.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
