@@ -1,0 +1,33 @@
+{{- $colors := dict
+  "auto" (dict "icon" "circle-half")
+  "dark" (dict "icon" "moon-stars")
+  "light" (dict "icon" "brightness-high")
+}}
+<div class="theme-toggle nav-item dropdown col-6">
+  <a
+    class="btn btn-link nav-link py-2 px-0 px-xxl-2 d-flex align-items-center"
+    href="#"
+    role="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" "circle-half" "className" "my-1 theme-toggle-icon") }}
+    <span class="d-xxl-none ms-1">{{ i18n "theme_title" }}</span>
+  </a>
+
+  <ul class="theme-toggle-menu dropdown-menu dropdown-menu-end">
+    {{- range $name, $color := $colors }}
+      <li>
+        <button
+          class="theme-toggle-item dropdown-item d-flex align-items-center justify-content-center"
+          data-bs-theme-value="{{ $name }}"
+        >
+          <span class="theme-toggle-item-icon me-1 d-flex align-items-center">
+            {{ partial "icons/icon" (dict "vendor" "bootstrap" "name" $color.icon "className" "my-1") }}
+          </span>
+          {{ printf "theme_%s" $name | i18n }}
+        </button>
+      </li>
+    {{- end }}
+  </ul>
+</div>
