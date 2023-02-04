@@ -1,0 +1,11 @@
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/snackbar"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-code-block-panel"
+
+[[params.hb.modules.code-block-panel.js_resources]]
+partial = "code-block-panel/assets/js-resource"
