@@ -1,0 +1,15 @@
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/giscus"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog"
+
+[params.hugopress.modules.hb-blog-comments-giscus.hooks.hb-blog-post-comments]
+
+[params.hugopress.modules.hb-blog-comments-giscus.hooks.body-end]
