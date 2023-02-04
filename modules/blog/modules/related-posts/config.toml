@@ -1,0 +1,13 @@
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog"
+
+[params.hugopress.modules.hb-blog-related-posts.hooks.hb-blog-post-content-end]
+
+[params.hb.blog.related_posts]
+number = 10
