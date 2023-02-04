@@ -1,0 +1,3 @@
+{{- if eq .Page.Type "docs" }}
+  {{ partial "giscus/script-with-options" .Page.Site.Params.hb.docs.giscus }}
+{{- end }}
