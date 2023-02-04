@@ -1,0 +1,10 @@
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons-bootstrap"
+
+[params.hugopress.modules.hb-header-language-picker.hooks.hb-header-panel]
