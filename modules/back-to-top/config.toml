@@ -1,0 +1,8 @@
+[params.hugopress.modules.hb-back-to-top.hooks.body-end]
+weight = 1
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons-bootstrap"

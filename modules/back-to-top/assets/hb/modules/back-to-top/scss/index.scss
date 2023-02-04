@@ -1,0 +1,31 @@
+.hb-back-to-top {
+    background: transparent;
+    border: none;
+    bottom: 1rem;
+    color: var(--#{$prefix}body-color);
+    opacity: 0;
+    padding: 0;
+    position: fixed;
+    right: 1rem;
+    transition: opacity 0.5s;
+    z-index: -1;
+
+    &.scrolling {
+        bottom: 100%;
+        transition: bottom 1s;
+    }
+
+    &.show {
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    &:hover,
+    &.scrolling {
+        color: var(--#{$prefix}primary-text);
+    }
+}
+
+.hb-back-to-top-icon {
+    display: flex;
+}
