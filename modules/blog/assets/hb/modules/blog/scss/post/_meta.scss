@@ -1,0 +1,16 @@
+.hb-blog-post-meta {
+    color: var(--#{$prefix}tertiary-color);
+    font-size: 0.85rem;
+
+    * {
+        margin: 0.125rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

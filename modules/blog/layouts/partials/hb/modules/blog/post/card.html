@@ -1,0 +1,18 @@
+<div class="hb-blog-post-card card border-0 overflow-hidden">
+  {{ partial "hb/modules/blog/post/card-img" . }}
+  <div class="card-body px-0">
+    <div class="hb-blog-post-meta mb-2">
+      <span class="hb-blog-post-date">
+        {{- partialCached "hb/modules/blog/post/date" . . -}}
+      </span>
+    </div>
+    <h2 class="hb-blog-post-title card-title h4">
+      <a class="hb-blog-post-title-link" href="{{ .Permalink }}">
+        {{- .Title -}}
+      </a>
+    </h2>
+    <div class="hb-blog-post-summary card-text text-secondary">
+      {{- .Summary -}}
+    </div>
+  </div>
+</div>
