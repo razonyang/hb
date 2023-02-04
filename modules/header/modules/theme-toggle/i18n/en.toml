@@ -1,0 +1,11 @@
+[theme_auto]
+other = "Auto"
+
+[theme_dark]
+other = "Dark"
+
+[theme_light]
+other = "Light"
+
+[theme_title]
+other = "Theme"

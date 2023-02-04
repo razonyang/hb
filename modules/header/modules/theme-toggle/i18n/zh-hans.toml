@@ -1,0 +1,11 @@
+[theme_auto]
+other = "自动"
+
+[theme_dark]
+other = "暗色"
+
+[theme_light]
+other = "亮色"
+
+[theme_title]
+other = "主题"
