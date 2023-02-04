@@ -1,0 +1,9 @@
+{{/* Indicate whether the menu is the current page. */}}
+{{- $v := false }}
+{{- if ne .Menu.URL "" }}
+  {{- $v = .Page.IsMenuCurrent "main" .Menu }}
+  {{- $menuURL := strings.TrimSuffix "/" (absURL .Menu.URL) }}
+  {{- $pageURL := strings.TrimSuffix "/" .Page.Permalink }}
+  {{- $v = or $v (eq $menuURL $pageURL) }}
+{{- end -}}
+{{- return $v -}}

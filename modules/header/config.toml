@@ -1,0 +1,17 @@
+[module.hugoVersion]
+extended = true
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
+[params.hb.header]
+sticky = true
+full_width = true
+brand = "HB"
+theme = ""

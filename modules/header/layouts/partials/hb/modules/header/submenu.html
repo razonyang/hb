@@ -1,0 +1,35 @@
+{{- $page := .Page }}
+{{- $baseURL := site.BaseURL }}
+{{- $menu := .Menu }}
+{{- $url := $menu.URL | absURL }}
+{{- $active := partial "hb/modules/header/functions/is-current" (dict "Page" .Page "Menu" .Menu) }}
+<li>
+  {{- if $menu.Params.divider }}
+    <hr class="dropdown-divider" />
+  {{- else }}
+    <a
+      class="hb-header-submenu dropdown-item d-flex align-items-center{{ cond $active ` active` `` }}"
+      href="{{ $url }}"
+      {{ if not (hasPrefix $url $baseURL) }}
+        target="_blank" rel="noopener noreferrer"
+      {{ end }}>
+      {{- $menu.Pre -}}
+      {{- with $menu.Params.icon }}
+        <div
+          class="dropdown-item-icon bg-body-secondary bg-gradient rounded me-2 p-2">
+          {{- partial "hb/modules/header/submenu-icon" . }}
+        </div>
+      {{- end }}
+      <div class="dropdown-item-content">
+        <div
+          class="dropdown-item-title{{ cond (isset $menu.Params `description`) ` mb-1` `` }}">
+          {{- $menu.Name -}}
+        </div>
+        {{- with $menu.Params.description }}
+          <p class="dropdown-item-desc mb-0">{{- . -}}</p>
+        {{- end }}
+      </div>
+      {{- $menu.Post -}}
+    </a>
+  {{- end -}}
+</li>

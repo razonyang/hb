@@ -1,0 +1,5 @@
+@mixin hb-header-theme($name) {
+    @if $name == $hb-header-theme {
+        @content;
+    }
+}

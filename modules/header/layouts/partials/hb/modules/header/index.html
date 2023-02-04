@@ -1,0 +1,53 @@
+{{- $params := $.Site.Params.hb.header }}
+<header class="hb-header shadow-sm">
+  <nav class="hb-header-nav navbar navbar-expand-xxl">
+    <div
+      class="{{ cond $params.full_width `container-fluid` `container-xxl` }}">
+      {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-nav-begin" "Page" .) }}
+      {{- partialCached "hb/modules/header/brand" . }}
+      <div class="d-flex order-5">
+        {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-togglers-begin" "Page" .) }}
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#hb-header-content"
+          aria-controls="hb-header-content">
+          {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "three-dots" "height" "1.25em" "width" "1.25em") }}
+        </button>
+        {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-togglers-end" "Page" .) }}
+      </div>
+      <div
+        class="offcanvas offcanvas-xxl offcanvas-end"
+        tabindex="-1"
+        id="hb-header-content"
+        aria-labelledby="hb-header-content-label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="hb-header-content-label">
+            {{- partialCached "hb/modules/header/functions/brand" . -}}
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          {{/* Menus begin. */}}
+          <ul class="hb-header-menus navbar-nav flex-row flex-wrap">
+            {{- $page := . }}
+            {{- range .Site.Menus.main -}}
+              {{- partial "hb/modules/header/menu" (dict "Menu" . "Page" $page) }}
+            {{- end -}}
+          </ul>
+          {{/* Menus end. */}}
+          {{/* Panel begin. */}}
+          <ul class="hb-header-panel navbar-nav flex-row">
+            {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-panel" "Page" .) }}
+          </ul>
+          {{/* Panel end. */}}
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

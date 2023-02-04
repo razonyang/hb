@@ -1,0 +1,7 @@
+// RESERVED FOR USERS, CREATE assets/hb/scss/modules/header/themes/_custom.scss WITH FOLLOWING FORM.
+@include hb-header-theme("custom") {
+    .hb-header-nav {
+        @extend .bg-body;
+    }
+    // PUT YOUR STYLE HERE.
+}

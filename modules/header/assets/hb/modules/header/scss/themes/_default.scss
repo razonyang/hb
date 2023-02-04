@@ -1,0 +1,40 @@
+$hb-header-menu-margin-x: 0.125rem;
+
+@include hb-header-theme("") {
+    .hb-header-nav {
+        @extend .bg-body;
+    }
+
+    .hb-header-menus {
+        --#{$prefix}navbar-active-color: var(--#{$prefix}primary-text);
+        --#{$prefix}nav-link-hover-color: var(--#{$prefix}primary-text);
+
+        @include media-breakpoint-up(xxl) {
+            .hb-header-menu {
+                margin: 0 #{$hb-header-menu-margin-x};
+                padding-left: 0;
+                padding-right: 0;
+
+                &::after {
+                    border-bottom: solid 3px var(--#{$prefix}primary-text);
+                    bottom: -#{$navbar-padding-y};
+                    display: block;
+                    content: "";
+                    margin-left: $hb-header-menu-margin-x * 4;
+                    position: relative;
+                    transform: scaleX(0);
+                    transition: transform 0.3s ease-in-out;
+                    width: calc(100% - #{$hb-header-menu-margin-x} * 8);
+                }
+
+                &:focus,
+                &:hover,
+                &.active {
+                    &::after {
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}

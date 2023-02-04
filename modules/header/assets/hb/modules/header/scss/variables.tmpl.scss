@@ -1,0 +1,5 @@
+{{- $params := .params.hb.header }}
+$hb-header-theme: '{{ default "" $params.theme }}';
+$hb-header-sticky: {{ default true $params.sticky }};
+$hb-header-menus-alignment: '{{ default "" $params.menus_alignment }}';
+$hb-header-logo-bg: {{ default "''" $params.logo_bg }};
