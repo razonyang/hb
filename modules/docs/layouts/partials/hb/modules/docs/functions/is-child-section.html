@@ -1,0 +1,9 @@
+{{- $v := false }}
+{{- if eq .Child .Ancestor }}
+  {{- $v = true }}
+{{- else }}
+  {{- with .Child.Parent }}
+    {{- $v = partial "hb/modules/docs/functions/is-child-section" (dict "Child" . "Ancestor" $.Expected) }}
+  {{- end }}
+{{- end }}
+{{- return $v }}

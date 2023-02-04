@@ -1,0 +1,27 @@
+.hb-docs-nav-heading,
+.hb-docs-nav-link {
+    color: inherit;
+    margin-top: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+        background: var(--#{$prefix}primary-bg-subtle);
+    }
+}
+
+.hb-docs-nav-heading {
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.hb-docs-nav-links {
+    > .hb-docs-nav-links-span-all {
+        .hb-docs-nav-link {
+            margin-left: 0;
+        }
+    }
+}

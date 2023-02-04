@@ -1,0 +1,12 @@
+<span class="hb-docs-doc-date">
+  {{- .Date | time.Format site.Params.hb.docs.date_format -}}
+</span>
+{{- range $kind, $taxonomy := .Site.Taxonomies }}
+  {{ range ($.GetTerms $kind) }}
+    <a
+      class="hb-docs-doc-taxonomy hb-docs-doc-taxonomy-{{ $kind | singularize }}"
+      href="{{ .Permalink }}">
+      {{- .LinkTitle -}}
+    </a>
+  {{ end }}
+{{- end -}}

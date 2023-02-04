@@ -1,0 +1,18 @@
+.hb-docs-doc-meta {
+    font-size: 0.875rem;
+
+    span,
+    a {
+        margin-right: 0.25rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.hb-docs-doc-taxonomy-tag {
+    &::before {
+        content: "#";
+    }
+}

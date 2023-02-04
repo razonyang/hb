@@ -1,0 +1,76 @@
+{{- $tree := partialCached "hb/modules/docs/functions/tree" . .FirstSection }}
+<div
+  class="hb-docs-nav offcanvas-xxl offcanvas-start"
+  aria-labelledby="#hb-docs-nav-label">
+  <div class="offcanvas-header border-bottom">
+    <h5 class="offcanvas-title" id="hb-docs-nav-label">
+      {{- i18n "docs_nav_title" -}}
+    </h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+      data-bs-target=".hb-docs-nav"></button>
+  </div>
+  <div class="offcanvas-body flex-column text-body-secondary">
+    <ul class="hb-docs-nav-links list-unstyled">
+      {{ template "walk-docs-tree" (dict "Tree" $tree "Page" .) }}
+    </ul>
+  </div>
+</div>
+
+{{- define "walk-docs-tree" }}
+  {{- $page := .Page }}
+  {{- range .Tree }}
+    {{- $node := . }}
+    {{- $active := eq $page.RelPermalink .Page.RelPermalink }}
+    {{- if $node.Page.IsSection }}
+      {{- if partial "hb/modules/docs/functions/is-section-page" (dict "Page" $page "Section" $node.Page) }}
+        {{- $active = true }}
+      {{- end }}
+      <li class="hb-docs-nav-links-group">
+        {{- $collapseId := printf "collapse-%s" $node.Page.File.UniqueID }}
+        <div
+          class="hb-docs-nav-heading d-flex align-items-center justify-content-between rounded{{ cond $active ` active` `` }}">
+          <a
+            class="d-flex flex-grow-1 align-items-center"
+            href="{{ $node.Page.RelPermalink }}">
+            {{- partial "hb/modules/docs/nav-menu" $node.Page -}}
+          </a>
+          {{ if .Children }}
+            <button
+              class="btn btn-link py-0 px-1 text-secondary d-flex align-items-center"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#{{ $collapseId }}"
+              aria-expanded="{{ cond $active `true` `false` }}"
+              aria-controls="{{ $collapseId }}">
+              {{ partial "icons/icon" (dict
+                "vendor" "bootstrap"
+                "name" "chevron-expand"
+                "width" "1.25rem"
+                "height" "1.25rem")
+              }}
+            </button>
+          {{ end }}
+        </div>
+        {{- with .Children }}
+          <ul
+            class="collapse list-unstyled fw-normal small ms-2{{ cond $active ` show` `` }}"
+            id="{{ $collapseId }}">
+            {{- template "walk-docs-tree" (dict "Tree" . "Page" $page) }}
+          </ul>
+        {{- end }}
+      </li>
+    {{- else }}
+      <li class="hb-docs-nav-links-span-all">
+        <a
+          class="hb-docs-nav-link d-flex align-items-center rounded{{ cond $active ` active` `` }}"
+          href="{{ .Page.RelPermalink }}">
+          {{- partial "hb/modules/docs/nav-menu" $node.Page -}}
+        </a>
+      </li>
+    {{- end }}
+  {{- end }}
+{{- end }}

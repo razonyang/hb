@@ -1,0 +1,10 @@
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
+github.com/razonyang/hb v0.4.0/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
+github.com/razonyang/hb/modules/heading-sign v0.1.0 h1:NTjdLY7zfCFOcoqoUXnd3yq1zjMWt0tXZNSpFDyWxVA=
+github.com/razonyang/hb/modules/heading-sign v0.1.0/go.mod h1:nTda94YVNBe2v7JVFnFpm3gTIQ2iyR+gFwJvwmH+qIs=
+github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0 h1:DCMA8MUdo0eRQGTmlBGzCGFTThYv9hSLsRGBdKrWtJ8=
+github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0/go.mod h1:qpjpOVApH3ioWClhE05ja646/w6Wy4lz2mUA16JofEI=
+github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=
+github.com/razonyang/hugopress v0.6.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=

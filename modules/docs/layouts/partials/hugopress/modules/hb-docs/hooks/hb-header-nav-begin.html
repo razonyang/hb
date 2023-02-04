@@ -1,0 +1,11 @@
+{{- if eq .Page.Type "docs" }}
+  <button
+    class="navbar-toggler border-0 shadow-none"
+    type="button"
+    data-bs-toggle="offcanvas"
+    data-bs-target=".hb-docs-nav"
+    aria-expanded="false"
+    aria-label="Toggle docs navigation">
+    {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "list" "width" "1.25em" "height" "1.25em") -}}
+  </button>
+{{- end }}

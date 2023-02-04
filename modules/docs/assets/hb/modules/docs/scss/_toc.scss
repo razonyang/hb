@@ -1,0 +1,27 @@
+.hb-docs-nav,
+.hb-docs-toc {
+    @include media-breakpoint-up(xxl) {
+        position: sticky;
+        top: 86px;
+        height: calc(100vh - 86px);
+        overflow-y: auto;
+    }
+}
+
+.hb-docs-toc {
+    @include media-breakpoint-down(xxl) {
+        color: var(--#{$prefix}body-color) !important;
+        margin: 0.5rem 0 1rem;
+
+        #TableOfContents {
+            border-bottom: 1px solid var(--#{$prefix}border-color);
+            font-size: 1rem !important;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .hb-docs-doc-toc-collapse {
+        display: block !important;
+    }
+}

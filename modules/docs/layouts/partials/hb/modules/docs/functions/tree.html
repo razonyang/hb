@@ -1,0 +1,3 @@
+{{/* Returns the pages tree of first section of current page. */}}
+{{- $tree := partial "hb/modules/docs/functions/walk-section" .FirstSection }}
+{{- return $tree -}}

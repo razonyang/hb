@@ -1,0 +1,32 @@
+<h1 class="hb-docs-doc-title mb-3">{{ .Title }}</h1>
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-begin") }}
+<div class="hb-docs-doc-content mb-4">
+  {{ .Content }}
+  {{- if .Pages }}
+    <h2 class="mb-3">{{ i18n "in_this_section" }}</h2>
+    <ul class="list-unstyled mb-3">
+      {{ template "walk-docs-section-tree" . }}
+    </ul>
+  {{- end }}
+  {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-end") }}
+  {{ partial "hb/modules/docs/doc/comments" . }}
+</div>
+
+{{- define "walk-docs-section-tree" }}
+  {{- $weighted := sort (where .Pages "Params.nav_weight" ">" 0) "Params.nav_weight" }}
+  {{- $pages := union $weighted (sort .Pages "Title") }}
+  {{- range $pages }}
+    {{- if .IsSection }}
+      <li class="mb-2">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <ul class="list-unstyled ps-2 mt-2">
+          {{ template "walk-docs-section-tree" . }}
+        </ul>
+      </li>
+    {{- else }}
+      <li class="mb-2">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{- end }}
+  {{- end }}
+{{- end }}

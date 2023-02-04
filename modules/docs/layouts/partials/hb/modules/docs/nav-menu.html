@@ -1,0 +1,6 @@
+{{- with .Params.nav_icon }}
+  <span class="hb-docs-nav-link-icon d-flex me-2">
+    {{ partial "icons/icon" (merge (dict "height" "1em" "width" "1em") .) }}
+  </span>
+{{- end }}
+{{- .LinkTitle -}}

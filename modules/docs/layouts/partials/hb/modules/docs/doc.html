@@ -1,0 +1,6 @@
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-begin") }}
+<div class="hb-docs-doc-content mb-5">
+  {{ .Content }}
+</div>
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-content-end") }}
+{{ partial "hb/modules/docs/doc/comments" . }}
