@@ -1,0 +1,8 @@
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
+github.com/razonyang/hb v0.4.0/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
+github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+buSb5NyFJc=
+github.com/razonyang/hugo-mod-base v0.3.0/go.mod h1:ZcaKeMZdNIRcijaDnpzluS5CJyUwWl42FEbtVo5UKZE=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible h1:TWdQPnyCB2GbvtvDglzVbOZEiXD7WgXOq8hH/mk2KKE=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

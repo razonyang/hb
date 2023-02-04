@@ -1,0 +1,6 @@
+{{- .Pre -}}
+{{- with .Params.icon }}
+  {{- partial "icons/icon" (merge (dict "width" "1em" "height" "1em" "className" "hb-footer-menu-icon me-2") .) }}
+{{- end }}
+{{- .Name -}}
+{{- .Post -}}
