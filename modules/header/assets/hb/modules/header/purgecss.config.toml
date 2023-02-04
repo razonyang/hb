@@ -1,0 +1,3 @@
+classes = [
+    "offcanvas-backdrop", # Required by Offcanvas.
+]

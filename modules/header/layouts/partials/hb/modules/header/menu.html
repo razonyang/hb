@@ -1,0 +1,75 @@
+{{- $page := .Page }}
+{{- $menu := .Menu }}
+{{- $baseURL := site.BaseURL }}
+{{- $url := $menu.URL | absURL -}}
+{{- $current := partial "hb/modules/header/functions/is-current" (dict "Page" .Page "Menu" .Menu) }}
+{{- $isExternal := not (hasPrefix $url $baseURL) }}
+{{- $menuID := printf "header-menu-%s" ($menu.Identifier | lower) }}
+{{- if $menu.HasChildren -}}
+  <li
+    class="hb-header-menu nav-item dropdown col-12 col-xxl-auto{{ cond $current ` active` `` }}">
+    {{/* Split the toggle button and menu link if URL presents. */}}
+    {{- if $menu.URL }}
+      <a
+        class="nav-link pe-0 d-inline-flex align-items-center"
+        href="{{ $menu.URL }}"
+        {{ if $current }}aria-current="page"{{ end }}
+        {{ if $isExternal }}
+          target="_blank" rel="noopener noreferrer"
+        {{ end }}>
+        {{- partial "hb/modules/header/menu-name" $menu -}}
+      </a>
+      <a
+        class="nav-link ps-0 d-inline-flex"
+        href=""
+        id="{{ $menuID }}"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+        {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "chevron-compact-down" "height" "16" "width" "16") }}
+      </a>
+    {{- else }}
+      <a
+        class="nav-link{{ cond $current ` active` `` }}"
+        id="{{ $menuID }}"
+        href=""
+        {{ if $current }}aria-current="page"{{ end }}
+        role="button"
+        data-bs-toggle="dropdown"
+        data-bs-reference="#{{ $menuID }}-submenus"
+        aria-expanded="false">
+        <div class="nav-link-content d-flex align-items-center">
+          {{- partial "hb/modules/header/menu-name" $menu -}}
+          <span class="dropdown-toggle-icon d-flex align-items-center ms-1">
+            {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "chevron-compact-down" "height" "16" "width" "16") }}
+          </span>
+        </div>
+      </a>
+    {{- end }}
+    <ul
+      class="hb-header-submenus dropdown-menu dropdown-menu-end"
+      aria-labelledby="{{ $menuID }}"
+      data-bs-popper="none">
+      {{- with $menu.Params.header }}
+        <li>
+          <h6 class="dropdown-header">{{ . }}</h6>
+        </li>
+      {{- end }}
+      {{- range $menu.Children }}
+        {{- partial "hb/modules/header/submenu" (dict "Menu" . "Page" $page) }}
+      {{- end }}
+    </ul>
+  </li>
+{{- else -}}
+  <li
+    class="hb-header-menu nav-item col-6 col-xxl-auto{{ cond $current ` active` `` }}">
+    <a
+      class="nav-link{{ cond $current ` active` `` }}"
+      {{ if $current }}aria-current="page"{{ end }}
+      href="{{ $url }}"
+      {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
+      {{- partial "hb/modules/header/menu-name" $menu -}}
+    </a>
+  </li>
+{{- end -}}

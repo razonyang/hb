@@ -1,0 +1,46 @@
+$hb-header-caret-width: 0.35em;
+@include hb-header-theme("classic") {
+    .hb-header-nav {
+        @extend .bg-primary;
+        @extend [data-bs-theme="dark"];
+
+        .hb-header-menus {
+            --#{$prefix}navbar-active-color: white;
+            --#{$prefix}nav-link-hover-color: white;
+        }
+
+        .nav-link {
+            @include media-breakpoint-up(xxl) {
+                &.active {
+                    position: relative;
+                    --#{$prefix}body-color: var(--#{$prefix}body-color);
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: calc(50% - #{$hb-header-caret-width});
+                        top: calc(100% + #{$hb-header-caret-width} - 0.05em);
+                        border-left: $hb-header-caret-width solid transparent;
+                        border-right: $hb-header-caret-width solid transparent;
+                        // unable to access the :root variable --#{$prefix}body-bg, use SCSS variable instead.
+                        border-bottom: $hb-header-caret-width solid #{$body-bg};
+                    }
+                }
+            }
+        }
+    }
+
+    html {
+        &[data-bs-theme="dark"] {
+            .hb-header-nav {
+                .nav-link {
+                    &.active {
+                        &::before {
+                            border-bottom: $caret-width solid #{$body-bg-dark};
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

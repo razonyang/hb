@@ -1,0 +1,10 @@
+{{- $logo := partialCached "hb/functions/logo" . }}
+{{- with $logo }}
+  {{- $logo = $logo.Resize "x32" }}
+  <img
+    src="{{ $logo.Permalink }}"
+    alt="Logo"
+    width="{{ $logo.Width }}"
+    height="{{ $logo.Height }}"
+    class="hb-header-logo d-inline-block align-text-top me-1" />
+{{- end -}}
