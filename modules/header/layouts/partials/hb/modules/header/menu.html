@@ -17,7 +17,7 @@
         {{ if $isExternal }}
           target="_blank" rel="noopener noreferrer"
         {{ end }}>
-        {{- partial "hb/modules/header/menu-name" $menu -}}
+        {{- partialCached "hb/modules/header/menu-name" $menu $menu -}}
       </a>
       <a
         class="nav-link ps-0 d-inline-flex"
@@ -40,7 +40,7 @@
         data-bs-reference="#{{ $menuID }}-submenus"
         aria-expanded="false">
         <div class="nav-link-content d-flex align-items-center">
-          {{- partial "hb/modules/header/menu-name" $menu -}}
+          {{- partialCached "hb/modules/header/menu-name" $menu $menu -}}
           <span class="dropdown-toggle-icon d-flex align-items-center ms-1">
             {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "chevron-compact-down" "height" "16" "width" "16") }}
           </span>
@@ -57,7 +57,8 @@
         </li>
       {{- end }}
       {{- range $menu.Children }}
-        {{- partial "hb/modules/header/submenu" (dict "Menu" . "Page" $page) }}
+        {{- $submenuCtx := dict "Menu" . "Page" $page }}
+        {{- partialCached "hb/modules/header/submenu" $submenuCtx $submenuCtx }}
       {{- end }}
     </ul>
   </li>
@@ -69,7 +70,7 @@
       {{ if $current }}aria-current="page"{{ end }}
       href="{{ $url }}"
       {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
-      {{- partial "hb/modules/header/menu-name" $menu -}}
+      {{- partialCached "hb/modules/header/menu-name" $menu $menu -}}
     </a>
   </li>
 {{- end -}}
