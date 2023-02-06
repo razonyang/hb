@@ -7,8 +7,8 @@ import Utterances from 'utterances/js'
 
     const setTheme = (theme = '') => {
         if (theme === '') {
-            const saved = localStorage.getItem('hb-theme') ?? ''
-            theme = saved && saved === 'auto' ? getPreferredTheme() : saved
+            const saved = localStorage.getItem('hb-theme')
+            theme = (!saved || saved === 'auto') ? getPreferredTheme() : saved
         }
 
         utterances.setTheme(`github-${theme}`)
