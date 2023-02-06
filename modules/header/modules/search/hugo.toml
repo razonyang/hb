@@ -8,6 +8,6 @@ path = "github.com/razonyang/hb/modules/search"
 path = "github.com/razonyang/hugopress"
 
 [[module.imports]]
-path = "github.com/razonyang/hugo-mod-icons-bootstrap"
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
 
 [params.hugopress.modules.hb-header-search.hooks.hb-header-togglers-begin]
