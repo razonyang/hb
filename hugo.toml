@@ -14,5 +14,7 @@ path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 [params.hugopress.modules.hb.hooks.head-begin]
 
 [params.hugopress.modules.hb.hooks.head-end]
+cacheable = true
 
 [params.hugopress.modules.hb.hooks.body-end]
+cacheable = true
