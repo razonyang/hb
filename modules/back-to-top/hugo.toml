@@ -1,5 +1,6 @@
 [params.hugopress.modules.hb-back-to-top.hooks.body-end]
 weight = 1
+cacheable = true
 
 [[module.imports]]
 path = "github.com/razonyang/hb"
