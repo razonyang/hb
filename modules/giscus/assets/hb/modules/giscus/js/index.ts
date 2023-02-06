@@ -6,8 +6,8 @@ import Giscus from 'giscus/js'
 
     const setTheme = (theme = '') => {
         if (theme === '') {
-            const saved = localStorage.getItem('hb-theme') ?? ''
-            theme = saved && saved === 'auto' ? getPreferredTheme() : saved
+            const saved = localStorage.getItem('hb-theme')
+            theme = (!saved || saved === 'auto') ? getPreferredTheme() : saved
         }
 
         giscus.setTheme(theme)
