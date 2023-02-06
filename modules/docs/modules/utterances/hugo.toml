@@ -1,0 +1,13 @@
+[[module.imports]]
+path = "github.com/razonyang/hugopress"
+
+[[module.imports]]
+path = "github.com/razonyang/hb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/utterances"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs"
+
+[params.hugopress.modules.hb-docs-utterances.hooks.hb-docs-doc-comments]
