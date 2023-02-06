@@ -1,0 +1,14 @@
+github.com/razonyang/hb v0.4.1 h1:oZ3/3AzhyFsuIx3QSb/Ib38LvquchbvFLwXdanoE0eA=
+github.com/razonyang/hb v0.4.1/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
+github.com/razonyang/hb/modules/blog v0.1.0 h1:/9MO7Zy6XR0Y3MLVGMpXN+ORhn9zF3gDQDUts+M9bRU=
+github.com/razonyang/hb/modules/blog v0.1.0/go.mod h1:Kj7KwC4q/h12sZpXsnevvu++AG+rSw2B7fOU5u5u+F0=
+github.com/razonyang/hb/modules/footer v0.1.0 h1:sxCaGwhF2LZfezfYGE8kfQdyZe3oQ89AtH+tpY2ncns=
+github.com/razonyang/hb/modules/footer v0.1.0/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
+github.com/razonyang/hb/modules/header v0.1.0 h1:dZypRdabo/+NPsmyQP5o5Va7eTHo/1ZHnwr1sq+Se/8=
+github.com/razonyang/hb/modules/header v0.1.0/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/utterances v0.1.0 h1:Gv+LC2ZnNMkUA7ilPqU056uK36uVtz60MZmvzTlhhyI=
+github.com/razonyang/hb/modules/utterances v0.1.0/go.mod h1:CijGTdIcVQhI3LGjvb7saeTjfiKU8PXUGYDs/+Ig3Y4=
+github.com/razonyang/hugo-mod-utterances v1.1.1 h1:JHRFqEpEMwHsaoIEGjHkzfUqWLFRcXTuSiBnaPH0zG4=
+github.com/razonyang/hugo-mod-utterances v1.1.1/go.mod h1:msg5TClLjTMB2qUzORn5OYE7lEOqFufVtGU2dP2+HLI=
+github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=
+github.com/razonyang/hugopress v0.6.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
