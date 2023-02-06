@@ -4,4 +4,7 @@ path = "github.com/razonyang/hugopress"
 [[module.imports]]
 path = "github.com/razonyang/hb/modules/docs"
 
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
 [params.hugopress.modules.hb-docs-doc-nav.hooks.hb-docs-doc-content-end]
