@@ -37,6 +37,8 @@
 {{- $title := default (.name | title) (printf `social_%s` .name | i18n) }}
 {{- $icon := .name }}
 {{- $color := .color }}
+{{- $width := default "1em" .width }}
+{{- $height := default "1em" .height }}
 {{- $url := urls.Parse .id }}
 {{- with index $media .name }}
   {{- if not $url.Scheme }}
@@ -55,7 +57,7 @@
   target="_blank"
   rel="external"
   title="{{ $title }}">
-  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color "className" "hb-social-icon") }}
+  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color "className" "hb-social-icon" "width" $width "height" $height) }}
   {{- if default false .text }}
     <span class="hb-social-text{{ with .textClass }} {{ . }}{{ end }}">
       {{- $title -}}
