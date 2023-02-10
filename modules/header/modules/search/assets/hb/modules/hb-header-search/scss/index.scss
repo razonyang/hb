@@ -1,3 +1,9 @@
 .hb-header-search-toggle {
-    color: inherit;
+    color: var(--#{$prefix}navbar-color);
+
+    &:hover {
+        svg {
+            color: var(--#{$prefix}navbar-hover-color);
+        }
+    }
 }
