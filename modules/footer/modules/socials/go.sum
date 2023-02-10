@@ -1,0 +1,14 @@
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb v0.4.2 h1:XgzrbTeyrdEPT+mHj45KL4nLvONFy9hYjZ7lDy2HoiA=
+github.com/razonyang/hb v0.4.2/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb/modules/footer v0.2.0 h1:EFojeopMsFcFdxKaxPTNIt5w+k/yjUpymQmjx2K4Ix4=
+github.com/razonyang/hb/modules/footer v0.2.0/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
+github.com/razonyang/hb/modules/socials v0.3.0 h1:QLsDO0r47dWJkkPmkSybCpqaIDFqQVATakoeT2+Msr4=
+github.com/razonyang/hb/modules/socials v0.3.0/go.mod h1:z2kNm83FVejDUXTxqsng5XQ1XNsOcWesQJVuvUOpXqI=
+github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+buSb5NyFJc=
+github.com/razonyang/hugo-mod-base v0.3.0/go.mod h1:ZcaKeMZdNIRcijaDnpzluS5CJyUwWl42FEbtVo5UKZE=
+github.com/simple-icons/simple-icons v2.17.1+incompatible h1:bZgl1gWxwNGgM57/RS50pb/6tGFXW6Jr95kYaZwvGJ0=
+github.com/simple-icons/simple-icons v2.17.1+incompatible/go.mod h1:oOgUUt8yVYOso/wEBi2ojfZP2MU/xxiNccIpaE+jCvE=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible h1:TWdQPnyCB2GbvtvDglzVbOZEiXD7WgXOq8hH/mk2KKE=
+github.com/twbs/bootstrap v5.3.0-alpha1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
