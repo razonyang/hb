@@ -55,6 +55,9 @@ other = "Mastodon"
 [social_medium]
 other = "Medium"
 
+[social_opencollective]
+other = "Open Collective"
+
 [social_patreon]
 other = "Patreon"
 
