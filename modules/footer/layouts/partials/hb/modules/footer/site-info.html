@@ -1,12 +1,14 @@
 <div class="hb-footer-site-info col col-lg-3 mb-3">
   <h5>{{ .Site.Title }}</h5>
   <ul class="list-unstyled small">
-    <li class="mb-2">{{ .Site.Params.description }}</li>
-    <li class="mb-2">
-      {{- replace .Site.Copyright "{year}" now.Year | markdownify -}}
-    </li>
-    <li class="mb-2">
-      {{- .Site.Params.hb.footer.powered_by | markdownify -}}
-    </li>
+    {{- with .Site.Params.description }}
+      <li class="mb-2">{{ . }}</li>
+    {{- end }}
+    {{- with .Site.Copyright }}
+      <li class="mb-2">
+        {{- replace . "{year}" now.Year | markdownify -}}
+      </li>
+    {{- end }}
+    {{- partialCached "hb/modules/footer/powered-by" . }}
   </ul>
 </div>
