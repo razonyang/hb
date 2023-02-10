@@ -6,9 +6,6 @@ $hb-header-menu-margin-x: 0.125rem;
     }
 
     .hb-header-menus {
-        --#{$prefix}navbar-active-color: var(--#{$prefix}primary-text);
-        --#{$prefix}nav-link-hover-color: var(--#{$prefix}primary-text);
-
         @include media-breakpoint-up(xxl) {
             .hb-header-menu {
                 margin: 0 #{$hb-header-menu-margin-x};
@@ -36,5 +33,11 @@ $hb-header-menu-margin-x: 0.125rem;
                 }
             }
         }
+    }
+
+    .hb-header-menus,
+    .hb-header-panel {
+        --#{$prefix}navbar-active-color: var(--#{$prefix}primary-text);
+        --#{$prefix}nav-link-hover-color: var(--#{$prefix}primary-text);
     }
 }
