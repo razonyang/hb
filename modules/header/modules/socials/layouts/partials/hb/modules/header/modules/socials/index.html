@@ -1,0 +1,13 @@
+{{- range $name, $id := .Site.Params.hb.header.socials }}
+  {{- $ctx := dict
+    "name" $name
+    "id" $id
+    "class" "btn btn-link nav-link py-2 px-0 px-xxl-2 d-flex justify-content-center align-items-center"
+    "color" false
+    "text" true
+    "textClass" "d-xxl-none ms-1"
+  }}
+  <li class="nav-item col-6 col-xxl-auto d-flex align-items-center">
+    {{- partial "hb/modules/socials/link" $ctx }}
+  </li>
+{{- end }}
