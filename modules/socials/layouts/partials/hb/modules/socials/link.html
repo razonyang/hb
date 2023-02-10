@@ -1,0 +1,58 @@
+{{- $media := dict
+  "artstation" (dict "url" "https://www.artstation.com/%s" "color" "#0a5878")
+  "bilibili" (dict "url" "https://space.bilibili.com/%s" "color" "#fb7299")
+  "bitbucket" (dict "url" "https://bitbucket.org/%s" "color" "#0e65df")
+  "discord" (dict "url" "https://discord.com/invite/%s")
+  "dockerhub" (dict "url" "https://hub.docker.com/u/%s" "icon" "docker")
+  "facebook" (dict "url" "https://facebook.com/%s" "color" "#1877f2")
+  "facebookgroup" (dict "url" "https://facebook.com/groups/%s" "color" "#1877f2" "icon" "facebook")
+  "github" (dict "url" "https://github.com/%s")
+  "gitlab" (dict "url" "https://gitlab.com/%s" "color" "#e24329")
+  "instagram" (dict "url" "https://www.instagram.com/%s" "color" "#c03957")
+  "itchdotio" (dict "url" "https://%s.itch.io/")
+  "kaggle" (dict "url" "https://kaggle.com/%s" "color" "#3cc6ff")
+  "kofi" (dict "url" "https://ko-fi.com/%s")
+  "lastdotfm" (dict "url" "https://www.last.fm/user/%s" "color" "#ba0000")
+  "liberapay" (dict "url" "https://liberapay.com/%s")
+  "linkedin" (dict "url" "https://linkedin.com/in/%s" "color" "#0a66c2")
+  "mastodon" (dict "url" "https://mastodon.social/@%s" "color" "#5c4ce2")
+  "medium" (dict "url" "https://medium.com/@%s")
+  "patreon" (dict "url" "https://www.patreon.com/%s" "color" "#ff424d")
+  "paypal" (dict "url" "https://www.paypal.com/paypalme/%s")
+  "pinterest" (dict "url" "https://www.pinterest.com/%s" "color" "#cc0000")
+  "quora" (dict "url" "https://www.quora.com/profile/%s" "color" "#b92b27")
+  "reddit" (dict "url" "https://www.reddit.com/user/%s" "color" "#FF4500")
+  "sinaweibo" (dict "url" "https://weibo.com/%s" "color" "#e1162c")
+  "stackoverflow" (dict "url" "https://stackoverflow.com/users/%s" "color" "#f48024")
+  "telegram" (dict "url" "https://t.me/%s" "color" "#2481cc")
+  "tencetqq" (dict "url" "http://wpa.qq.com/msgrd?v=3&uin=%s&site=qq&menu=yes")
+  "tiktok" (dict "url" "https://www.tiktok.com/@%s")
+  "tumblr" (dict "url" "https://%s.tumblr.com")
+  "twitter" (dict "url" "https://twitter.com/%s" "color" "#1d9bf0")
+  "xing" (dict "url" "https://www.xing.com/profile/%s")
+  "youtube" (dict "url" "https://www.youtube.com/channel/%s" "color" "#ff0000")
+  "zhihu" (dict "url" "https://www.zhihu.com/people/%s" "color" "#056de8")
+}}
+{{- $title := default (.name | title) (printf `social_%s` .name | i18n) }}
+{{- $icon := .name }}
+{{- $color := .color }}
+{{- $url := urls.Parse .id }}
+{{- with index $media .name }}
+  {{- if not $url.Scheme }}
+    {{- $url = printf .url $.id }}
+  {{- end }}
+  {{- if and (ne $color false) .color }}
+    {{- $color = .color }}
+  {{- end }}
+  {{- with .icon }}
+    {{- $icon = . }}
+  {{- end }}
+{{- end }}
+<a
+  class="{{ .class }}"
+  href="{{ $url }}"
+  target="_blank"
+  rel="external"
+  title="{{ $title }}">
+  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color) }}
+</a>
