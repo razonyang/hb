@@ -1,0 +1,13 @@
+.hb-footer {
+    .hb-social {
+        color: var(--#{$prefix}body-color);
+
+        &:hover {
+            color: var(--#{$prefix}primary);
+        }
+    }
+}
+
+.hb-footer-socials {
+    margin-left: -0.5rem;
+}

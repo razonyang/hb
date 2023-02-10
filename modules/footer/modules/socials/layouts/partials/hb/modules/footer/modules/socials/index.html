@@ -1,0 +1,14 @@
+{{- with .Site.Params.hb.footer.socials }}
+  <div class="hb-footer-socials d-flex justify-content-between mb-2 me-3">
+    {{- range $name, $id := . }}
+      {{- $ctx := dict
+        "id" $id
+        "name" $name
+        "class" "p-2"
+        "width" "1.5rem"
+        "height" "1.5rem"
+      }}
+      {{ partial "hb/modules/socials/link" $ctx }}
+    {{- end }}
+  </div>
+{{- end -}}
