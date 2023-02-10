@@ -1,4 +1,5 @@
 <div class="hb-footer-site-info col col-lg-3 mb-3">
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-begin" "Page" .) }}
   <h5>{{ .Site.Title }}</h5>
   <ul class="list-unstyled small">
     {{- with .Site.Params.description }}
@@ -11,4 +12,5 @@
     {{- end }}
     {{- partialCached "hb/modules/footer/powered-by" . }}
   </ul>
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-end" "Page" .) }}
 </div>
