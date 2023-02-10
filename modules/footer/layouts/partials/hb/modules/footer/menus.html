@@ -3,7 +3,7 @@
     <h5 class="mb-3 d-flex align-items-center">
       {{- partial "hb/modules/footer/menu-text" . -}}
     </h5>
-    <ul class="hb-footer-menus list-unstyled">
+    <ul class="hb-footer-menus list-unstyled ms-1">
       {{- range .Children }}
         <li class="mb-2">
           {{- $external := partial "base/functions/is-menu-external" . }}
