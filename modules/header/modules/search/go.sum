@@ -3,8 +3,8 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/krisk/Fuse v6.6.2+incompatible h1:laigOpZFs/xUi9zGjVu5t19bcvzRVufoXCnPSgQZmYI=
 github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
 github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
-github.com/razonyang/hb/modules/header v0.1.1 h1:MMwVAH305If0STcBgRV5VrExI0phofdyEfI/Wdv9rQ8=
-github.com/razonyang/hb/modules/header v0.1.1/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.3 h1:3+JQ1DLDYZNTFZX257XAsGLDjp5QlDJjlfNQlvWb660=
+github.com/razonyang/hb/modules/header v0.1.3/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hb/modules/search v0.1.0 h1:PEw3MNKAgC4rBMyE1sxR3mRpXsyqDRWWgtX4LYj1tlg=
 github.com/razonyang/hb/modules/search v0.1.0/go.mod h1:VFDoBl+BhuAOPWuItFYzYKZNzHgGmHMjs9VFC8WSDi0=
 github.com/razonyang/hugo-mod-fuse-js v0.1.0 h1:IPWcKaqhpwlP8ziPiSGCrde6oSCswLfJWhXSCvjcOlk=
