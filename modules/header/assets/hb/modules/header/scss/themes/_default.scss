@@ -1,6 +1,14 @@
 $hb-header-menu-margin-x: 0.125rem;
 
 @include hb-header-theme("") {
+    .hb-header {
+        .navbar {
+            --#{$prefix}navbar-hover-color: var(--#{$prefix}primary-text);
+            --#{$prefix}navbar-active-color: var(--#{$prefix}primary-text);
+            --#{$prefix}nav-link-hover-color: var(--#{$prefix}primary-text);
+        }
+    }
+
     .hb-header-nav {
         @extend .bg-body;
     }
@@ -33,11 +41,5 @@ $hb-header-menu-margin-x: 0.125rem;
                 }
             }
         }
-    }
-
-    .hb-header-menus,
-    .hb-header-panel {
-        --#{$prefix}navbar-active-color: var(--#{$prefix}primary-text);
-        --#{$prefix}nav-link-hover-color: var(--#{$prefix}primary-text);
     }
 }
