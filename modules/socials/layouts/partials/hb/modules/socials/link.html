@@ -49,10 +49,15 @@
   {{- end }}
 {{- end }}
 <a
-  class="{{ .class }}"
+  class="hb-social {{ .class }}"
   href="{{ $url }}"
   target="_blank"
   rel="external"
   title="{{ $title }}">
-  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color) }}
+  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color "className" "hb-social-icon") }}
+  {{- if default false .text }}
+    <span class="hb-social-text{{ with .textClass }} {{ . }}{{ end }}">
+      {{- $title -}}
+    </span>
+  {{- end }}
 </a>
