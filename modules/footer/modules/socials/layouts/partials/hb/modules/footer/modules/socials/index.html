@@ -1,5 +1,5 @@
 {{- with .Site.Params.hb.footer.socials }}
-  <div class="hb-footer-socials d-flex justify-content-between mb-2 me-3">
+  <div class="hb-footer-socials d-flex mb-2 me-3">
     {{- range $name, $id := . }}
       {{- $ctx := dict
         "id" $id

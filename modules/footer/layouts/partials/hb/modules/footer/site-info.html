@@ -1,12 +1,12 @@
 <div class="hb-footer-site-info col col-lg-3 mb-3">
   {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-begin" "Page" .) }}
-  <h5>{{ .Site.Title }}</h5>
-  <ul class="list-unstyled small">
+  <div class="h5">{{ .Site.Title }}</div>
+  <ul class="list-unstyled small mb-2">
     {{- with .Site.Params.description }}
-      <li class="mb-2">{{ . }}</li>
+      <li class="mt-2">{{ . }}</li>
     {{- end }}
     {{- with .Site.Copyright }}
-      <li class="mb-2">
+      <li class="mt-2">
         {{- replace . "{year}" now.Year | markdownify -}}
       </li>
     {{- end }}
