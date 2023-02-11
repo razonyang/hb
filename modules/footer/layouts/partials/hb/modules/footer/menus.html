@@ -1,8 +1,8 @@
 {{- range $idx, $menu :=.Site.Menus.footer }}
   <div class="col-6 col-lg-2{{ cond (eq $idx 0) ` offset-lg-1` `` }} mb-3">
-    <h5 class="mb-3 d-flex align-items-center">
+    <div class="mb-3 d-flex align-items-center h5">
       {{- partial "hb/modules/footer/menu-text" . -}}
-    </h5>
+    </div>
     <ul class="hb-footer-menus list-unstyled ms-1">
       {{- range .Children }}
         <li class="mb-2">
