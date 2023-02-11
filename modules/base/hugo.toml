@@ -2,6 +2,9 @@
 extended = true
 
 [[module.imports]]
+path = "github.com/razonyang/hugo-mod-seo/modules/base"
+
+[[module.imports]]
 path = "github.com/razonyang/hb/modules/header"
 
 [[module.imports]]
