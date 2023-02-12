@@ -1,6 +1,8 @@
 $hb-main-margin-bottom: 2rem;
 
 .hb-main {
+    display: flex;
     flex: 1;
+    flex-direction: column;
     margin-bottom: $hb-main-margin-bottom;
 }
