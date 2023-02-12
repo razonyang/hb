@@ -1,5 +1,5 @@
 {{- with .Site.Params.hb.footer.socials }}
-  <div class="hb-footer-socials d-flex mb-2 me-3">
+  <div class="hb-footer-socials d-flex mb-2 me-3{{ cond (isset $.Site.Menus `footer`) `` ` justify-content-center` }}">
     {{- range $name, $id := . }}
       {{- $ctx := dict
         "id" $id
