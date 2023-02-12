@@ -13,5 +13,5 @@ path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
 [params.hb.header]
 sticky = true
 full_width = true
-brand = "HB"
+brand = ""
 theme = ""
