@@ -32,12 +32,12 @@ $hb-header-margin-bottom: 2rem;
 }
 
 .hb-header-menus {
-    @if $hb-header-menus-alignment == "start" {
-        margin-right: auto;
+    @if $hb-header-menus-alignment == "center" {
+        margin: auto;
     } @else if $hb-header-menus-alignment == "end" {
         margin-left: auto;
     } @else {
-        margin: auto;
+        margin-right: auto;
     }
 
     .nav-link-icon {
