@@ -1,4 +1,4 @@
-<div class="hb-footer-site-info col col-lg-3 mb-3">
+<div class="hb-footer-site-info col mb-3 {{ cond (isset .Site.Menus `footer`) `col-lg-3` `text-center` }}">
   {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-begin" "Page" .) }}
   <div class="h5">{{ .Site.Title }}</div>
   <ul class="list-unstyled small mb-2">
