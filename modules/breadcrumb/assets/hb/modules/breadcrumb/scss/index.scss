@@ -51,14 +51,14 @@
                     align-items: center;
                     display: flex;
                     justify-content: center;
-                    width: 2rem;
+                    width: 2.75rem;
 
                     a {
                         display: none;
                     }
 
                     &::after {
-                        content: ".";
+                        content: "...";
                         margin-top: -0.5rem;
                     }
                 }
