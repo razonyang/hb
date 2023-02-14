@@ -13,7 +13,7 @@
         margin-right: -0.875rem;
         max-width: 360px;
         overflow: hidden;
-        padding: 0.5rem 0rem;
+        padding: 0.5rem 0;
         text-overflow: ellipsis;
 
         &.active,
@@ -27,6 +27,7 @@
         a {
             padding: 0.5rem 1.25rem 0.5rem 1.75rem;
             text-decoration: none;
+
             &:hover {
                 color: inherit;
             }
@@ -44,19 +45,22 @@
     @include media-breakpoint-down(md) {
         .breadcrumb-item {
             max-width: 240px;
-            &:not(:first-child):not(:last-child) {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-                width: 2rem;
 
-                a {
-                    display: none;
-                }
+            &:not(:first-child) {
+                &:not(:last-child) {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    width: 2rem;
 
-                &::after {
-                    content: ".";
-                    margin-top: -0.5rem;
+                    a {
+                        display: none;
+                    }
+
+                    &::after {
+                        content: ".";
+                        margin-top: -0.5rem;
+                    }
                 }
             }
         }
