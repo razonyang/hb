@@ -3,3 +3,11 @@ path = "github.com/razonyang/hb"
 
 [[module.imports]]
 path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
+
+[params.hb.back_to_top]
+icon_height = "2em"
+icon_width = "2em"
+icon_name = "rocket"
+position_bottom = "1rem"
+position_end = "1rem"
+animation = true

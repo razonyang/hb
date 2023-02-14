@@ -1,3 +1,5 @@
+import * as params from "@params";
+
 export default class Button {
     private btn: HTMLButtonElement
 
@@ -17,14 +19,14 @@ export default class Button {
             } else {
                 this.hide();
             }
-            if (top > y) {
+            if (this.animation() && top > y) {
                 btn.classList.remove('scrolling')
             }
             y = top
         });
 
         this.btn.addEventListener('click', () => {
-            btn.classList.add('scrolling')
+            this.animation() && btn.classList.add('scrolling')
             window.scrollTo({
                 top: 0,
                 left: 0,
@@ -39,5 +41,9 @@ export default class Button {
 
     hide() {
         this.btn.classList.remove('show')
+    }
+
+    animation(): boolean {
+        return params?.back_to_top?.animation !== false
     }
 }
