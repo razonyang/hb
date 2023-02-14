@@ -4,6 +4,7 @@ $hb-terms-colors: ($warning, $success, $danger);
     a {
         --size: 0;
         --color: var(--#{$prefix}primary);
+
         color: var(--color);
         font-size: calc(var(--size) * 0.125rem + 0.75rem);
         padding: 0.125rem 0.25rem;

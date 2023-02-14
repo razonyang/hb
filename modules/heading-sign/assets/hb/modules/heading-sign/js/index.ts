@@ -7,7 +7,7 @@ import * as params from '@params';
             return
         }
 
-        for (let selector in containers) {
+        for (const selector in containers) {
             const container = document.querySelector(selector)
             if (!container) {
                 continue

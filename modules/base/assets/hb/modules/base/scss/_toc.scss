@@ -1,5 +1,10 @@
+/* stylelint-disable selector-id-pattern */
 #TableOfContents {
     font-size: 0.875rem;
+
+    > ul {
+        padding-left: 0;
+    }
 
     ul {
         list-style: none;
@@ -8,10 +13,6 @@
         ul {
             margin-top: 0.25rem;
         }
-    }
-
-    > ul {
-        padding-left: 0;
     }
 
     li {
@@ -27,3 +28,4 @@
         }
     }
 }
+/* stylelint-enable selector-id-pattern */

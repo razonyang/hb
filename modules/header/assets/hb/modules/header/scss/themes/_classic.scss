@@ -1,4 +1,5 @@
 $hb-header-caret-width: 0.35em;
+
 @include hb-header-theme("classic") {
     .hb-header-nav {
         @extend .bg-primary;
@@ -12,8 +13,9 @@ $hb-header-caret-width: 0.35em;
         .nav-link {
             @include media-breakpoint-up(xxl) {
                 &.active {
-                    position: relative;
                     --#{$prefix}body-color: var(--#{$prefix}body-color);
+
+                    position: relative;
 
                     &::before {
                         content: "";
@@ -22,6 +24,7 @@ $hb-header-caret-width: 0.35em;
                         top: calc(100% + #{$hb-header-caret-width} - 0.05em);
                         border-left: $hb-header-caret-width solid transparent;
                         border-right: $hb-header-caret-width solid transparent;
+
                         // unable to access the :root variable --#{$prefix}body-bg, use SCSS variable instead.
                         border-bottom: $hb-header-caret-width solid #{$body-bg};
                     }

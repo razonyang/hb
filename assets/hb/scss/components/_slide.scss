@@ -10,6 +10,14 @@
     margin: 0;
 }
 
+.slide-control-left {
+    left: 0;
+}
+
+.slide-control-right {
+    right: 0;
+}
+
 .slide-control-left,
 .slide-control-right {
     border: none;
@@ -22,12 +30,4 @@
     &:hover {
         color: var(--#{$prefix}primary);
     }
-}
-
-.slide-control-left {
-    left: 0;
-}
-
-.slide-control-right {
-    right: 0;
 }
