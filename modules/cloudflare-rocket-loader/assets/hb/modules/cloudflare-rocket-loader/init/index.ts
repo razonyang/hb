@@ -1,13 +1,13 @@
 // Cloudflare rocket loader dose not trigger the DOMContentLoaded event.
 (() => {
-    let cfRocketLoader = true
+    let fired = false
     window.addEventListener("DOMContentLoaded", function () {
-        cfRocketLoader = false
+        fired = true
     })
 
     if (document.readyState === "loading") {
         window.addEventListener("load", function () {
-            cfRocketLoader && window.dispatchEvent(new Event("DOMContentLoaded"))
+            !fired && window.dispatchEvent(new Event("DOMContentLoaded"))
         })
     }
 })()
