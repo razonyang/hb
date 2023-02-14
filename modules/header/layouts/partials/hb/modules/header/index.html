@@ -44,6 +44,11 @@
           {{/* Menus end. */}}
           {{/* Panel begin. */}}
           <ul class="hb-header-panel navbar-nav flex-row flex-wrap">
+            {{- if partial "hugopress/functions/has-modules" "hb-header-panel" }}
+              <li class="nav-item py-2 py-xxl-1 col-12 col-xxl-auto">
+                <hr class="d-xxl-none my-2 text-body-50">
+              </li>
+            {{- end }}
             {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-panel" "Page" .) }}
           </ul>
           {{/* Panel end. */}}
