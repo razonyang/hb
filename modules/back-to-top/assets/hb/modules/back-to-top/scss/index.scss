@@ -2,18 +2,21 @@
 .hb-back-to-top {
     background: transparent;
     border: none;
-    bottom: 1rem;
+    bottom: $hb-back-to-top-bottom;
     color: var(--#{$prefix}body-color);
     opacity: 0;
     padding: 0;
     position: fixed;
-    right: 1rem;
+    right: $hb-back-to-top-end;
     transition: opacity 0.5s;
     z-index: -1;
 
-    &.scrolling {
-        bottom: 100%;
-        transition: bottom 1s;
+    @if $hb-back-to-top-animation {
+        &.scrolling {
+            bottom: 100%;
+            color: var(--#{$prefix}primary-text);
+            transition: bottom 1s;
+        }
     }
 
     &.show {
@@ -21,8 +24,7 @@
         z-index: 1000;
     }
 
-    &:hover,
-    &.scrolling {
+    &:hover {
         color: var(--#{$prefix}primary-text);
     }
 }
