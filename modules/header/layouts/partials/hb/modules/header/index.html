@@ -12,7 +12,8 @@
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#hb-header-content"
-          aria-controls="hb-header-content">
+          aria-controls="hb-header-content"
+          aria-label="Toggle navigation">
           {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "three-dots" "height" "1.25em" "width" "1.25em") }}
         </button>
         {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-header-togglers-end" "Page" .) }}
