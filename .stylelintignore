@@ -1,1 +1,2 @@
 **/*.tmpl.scss
+modules/syntax-highlighting/styles/**/*.scss
