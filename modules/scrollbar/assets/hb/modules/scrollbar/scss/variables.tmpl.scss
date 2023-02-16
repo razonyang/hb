@@ -1,0 +1,5 @@
+$hb-scrollbar-width: {{ default "12px" .params.hb.scrollbar.width }};
+$hb-scrollbar-height: {{ default "12px" .params.hb.scrollbar.height }};
+$hb-scrollbar-track-bg: {{ default "#f8f9fa" .params.hb.scrollbar.track_bg }};
+$hb-scrollbar-thumb-bg: {{ default "#909294" .params.hb.scrollbar.thumb_bg }};
+$hb-scrollbar-corner-bg: {{ default "#909294" .params.hb.scrollbar.corner_bg }};
