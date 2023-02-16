@@ -5,14 +5,9 @@ path = "github.com/razonyang/hugopress"
 path = "github.com/razonyang/hb"
 
 [[module.imports]]
-path = "github.com/razonyang/hb/modules/heading-sign"
-
-[[module.imports]]
 path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
 
 [params.hugopress.modules.hb-docs.hooks.hb-header-nav-begin]
 
 [params.hb.docs]
 date_format = ":date_long"
-
-[params.hb.heading_sign.containers.".hb-docs-doc-content"]
