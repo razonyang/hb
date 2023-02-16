@@ -19,7 +19,7 @@
     {{- if .IsSection }}
       <li class="mb-2">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <ul class="list-unstyled ps-2 mt-2">
+        <ul class="list-unstyled ps-4 mt-2">
           {{ template "walk-docs-section-tree" . }}
         </ul>
       </li>
