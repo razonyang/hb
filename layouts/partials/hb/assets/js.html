@@ -9,7 +9,9 @@
 }}
 {{/* Get JS template. */}}
 {{- $js := resources.Get "hb/js/index.tmpl.ts" | resources.ExecuteAsTemplate "hb/js/index.ts" . }}
-{{/* warnf "[hb] %s:\n%s\n" $js.Name $js.Content */}}
+{{- if partialCached "hb/functions/debug" . }}
+  {{- warnf "[hb] %s:\n%s\n" $js.Name $js.Content }}
+{{- end }}
 {{/* Compile JS. */}}
 {{- $js = $js | js.Build $options }}
 {{- $js = slice $js }}

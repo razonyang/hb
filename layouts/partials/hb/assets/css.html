@@ -24,7 +24,9 @@
   {{- $tmpl := resources.Get "hb/scss/index.tmpl.scss" }}
   {{/* Compile SCSS. The target path MUST begin with "hb/scss/*" for resolving SASS/SCSS modules. */}}
   {{- $style := $tmpl | resources.ExecuteAsTemplate (printf "hb/scss/index%s.scss" $suffix) $context }}
-  {{/* warnf "[hb] %s:\n%s\n" $style.Name $style.Content */}}
+  {{- if partialCached "hb/functions/debug" . }}
+    {{- warnf "[hb] %s:\n%s\n" $style.Name $style.Content }}
+  {{- end }}
   {{- $style = $style | toCSS $options }}
   {{- $postCSSOpts := dict
     "use" (cond $rtl "rtlcss" "")
