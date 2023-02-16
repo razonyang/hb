@@ -4,10 +4,10 @@
 @import "../../scss/bootstrap/functions";
 
 // Variables
-{{- range resources.Match "hb/modules/*/scss/variables.tmpl.scss" }}
+{{ range resources.Match "hb/modules/*/scss/variables.tmpl.scss" }}
   {{- $vars := . | resources.ExecuteAsTemplate . $context }}
   {{- $vars.Content }}
-{{- end }}
+{{ end }}
 @import "variables";
 @import "../../scss/bootstrap/variables";
 @import "../../scss/bootstrap/variables-dark";
