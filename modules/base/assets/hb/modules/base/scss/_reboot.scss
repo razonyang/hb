@@ -1,11 +1,3 @@
-:root {
-    --#{$prefix}scrollbar-width: 12px;
-    --#{$prefix}scrollbar-height: 12px;
-    --#{$prefix}scrollbar-track-bg: var(--#{$prefix}secondary-bg);
-    --#{$prefix}scrollbar-thumb-bg: var(--#{$prefix}secondary);
-    --#{$prefix}scrollbar-corner-bg: var(--#{$prefix}secondary);
-}
-
 body {
     display: flex;
     flex-direction: column;
