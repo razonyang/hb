@@ -1,0 +1,10 @@
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb v0.6.0 h1:BpiqtgJ1P95SsDtXX24RnxlYW5a5i0jGBwKQqbqvqnA=
+github.com/razonyang/hb v0.6.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb/modules/blog v0.1.1 h1:hpryNnlPNKdZw4jlT1tZBW0a/eTZCn8tTQoaYNRG8R8=
+github.com/razonyang/hb/modules/blog v0.1.1/go.mod h1:Kj7KwC4q/h12sZpXsnevvu++AG+rSw2B7fOU5u5u+F0=
+github.com/razonyang/hb/modules/footer v0.2.3 h1:i7DO2PIwHfYo+kaEeTcVV15uxehuLx/2aGOdYI5ijD8=
+github.com/razonyang/hb/modules/footer v0.2.3/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
+github.com/razonyang/hb/modules/header v0.1.8 h1:1lf5b79ZUFipBTQHqzUYZbfZVDSiqp3YVq/TltdbO5k=
+github.com/razonyang/hb/modules/header v0.1.8/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
