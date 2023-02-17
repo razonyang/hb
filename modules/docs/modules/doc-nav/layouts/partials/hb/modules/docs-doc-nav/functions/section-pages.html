@@ -1,0 +1,2 @@
+{{- $weighted := sort (where .Pages "Params.nav_weight" ">" 0) "Params.nav_weight" }}
+{{- return union $weighted (sort .Pages "Title") -}}

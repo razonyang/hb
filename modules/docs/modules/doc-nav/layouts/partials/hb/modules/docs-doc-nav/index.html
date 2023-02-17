@@ -1,4 +1,9 @@
-{{- $pages := partialCached "hb/modules/docs-doc-nav/functions/current-section-pages" . .CurrentSection }}
+{{- $pages := slice }}
+{{- if .IsSection }}
+  {{- $pages = partial "hb/modules/docs-doc-nav/functions/section-pages" .Parent .Parent }}
+{{- else }}
+  {{- $pages = partial "hb/modules/docs-doc-nav/functions/section-pages" .CurrentSection .CurrentSection }}
+{{- end }}
 {{- $prev := false }}
 {{- $next := false }}
 {{- $current := . }}
