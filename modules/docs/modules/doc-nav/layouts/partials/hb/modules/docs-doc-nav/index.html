@@ -1,16 +1,30 @@
+{{- $pages := partialCached "hb/modules/docs-doc-nav/functions/current-section-pages" . .CurrentSection }}
+{{- $prev := false }}
+{{- $next := false }}
+{{- $current := . }}
+{{- range $i, $page := $pages }}
+  {{- if eq $current . }}
+    {{- if gt $i 0 }}
+      {{- $prev = index $pages (sub $i 1) }}
+    {{- end }}
+    {{- if lt $i (len $pages) }}
+      {{- $next = index $pages (add $i 1) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
 {{- $justify := "justify-content-between" }}
-{{- if not .PrevInSection }}
+{{- if not $prev }}
   {{- $justify = "justify-content-end" }}
 {{- end }}
 <ul class="hb-docs-doc-nav nav hb-module {{ $justify }}">
-  {{ with .PrevInSection }}
+  {{ with $prev }}
     <li class="nav-item">
       <a class="nav-link p-0" title="{{ .Title }}" href="{{ .RelPermalink }}">
         {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-left-circle" "width" "2rem" "height" "2rem") }}
       </a>
     </li>
   {{ end }}
-  {{ with .NextInSection }}
+  {{ with $next }}
     <li class="nav-item">
       <a class="nav-link p-0" title="{{ .Title }}" href="{{ .RelPermalink }}">
         {{- partial "icons/icon" (dict "vendor" "bootstrap" "name" "arrow-right-circle" "width" "2rem" "height" "2rem") }}
