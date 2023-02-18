@@ -16,5 +16,10 @@ path = "github.com/razonyang/hugo-mod-icons"
 [[module.imports]]
 path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
 
+[params.hb.base.full_width]
+types = ["docs"]
+# kinds = ["home"]
+# sections = ["docs", "notes"]
+
 [params.hb.terms]
 paginate = 9

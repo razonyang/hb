@@ -1,0 +1,14 @@
+{{- $full := false }}
+{{- $page := . }}
+{{- with .Site.Params.hb.base.full_width }}
+  {{- with .kinds }}
+    {{- $full = in . $page.Kind }}
+  {{- end }}
+  {{- with .sections }}
+    {{- $full = in . $page.Section }}
+  {{- end }}
+  {{- with .types }}
+    {{- $full = in . $page.Type }}
+  {{- end }}
+{{- end }}
+{{- return $full -}}

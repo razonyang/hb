@@ -11,7 +11,9 @@
     {{- partial "hugopress/body-begin.html" . }}
     {{ partial "hb/modules/header/index" . }}
     {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-main-begin" "Page" .) }}
-    <div class="hb-main container-xxl">
+    {{- $fullWidthKey := dict "type" .Type "section" .Section "kind" .Kind }}
+    {{- $fullWidth := partialCached "hb/modules/base/functions/full-width" . $fullWidthKey }}
+    <div class="hb-main {{ cond $fullWidth `container-fluid` `container-xxl` }}">
       {{- block "main" . }}{{- end }}
     </div>
     {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-main-end" "Page" .) }}
