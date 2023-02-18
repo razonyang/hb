@@ -1,5 +1,5 @@
 {{- if and (not .IsHome) (not .Site.Params.hb.breadcrumb.disabled) -}}
-  <div class="hb-module container-xxl px-0">
+  <div class="hb-module container-fluid px-0">
     <nav aria-label="breadcrumb">
       <ol class="hb-breadcrumb breadcrumb">
         {{- range .Ancestors.Reverse }}
