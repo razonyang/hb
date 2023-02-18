@@ -1,9 +1,9 @@
-{{- $dest := .Destination }}
-{{- if hasPrefix $dest "#" }}
-  {{- $dest = printf "%s%s" .Page.RelPermalink $dest }}
+{{- $dest := .Destination -}}
+{{- if hasPrefix $dest "#" -}}
+  {{- $dest = printf "%s%s" .Page.RelPermalink $dest -}}
 {{- end -}}
-{{- $target := $dest | safeURL }}
-{{- $external := partial "base/functions/is-url-external" $target }}
+{{- $target := $dest | safeURL -}}
+{{- $external := partial "base/functions/is-url-external" $target -}}
 <a
   href="{{ $target }}"
   {{ with .Title }}title="{{ . }}"{{ end }}
