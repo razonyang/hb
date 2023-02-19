@@ -1,0 +1,5 @@
+$hb-background-img: '';
+{{- with resources.GetMatch "images/background.*" }}
+  {{- $bg := .Resize "1920x1080" }}
+$hb-background-img: '{{ $bg.RelPermalink }}';
+{{- end }}
