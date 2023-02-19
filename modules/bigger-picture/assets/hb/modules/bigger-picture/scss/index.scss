@@ -3,3 +3,13 @@
 .bp-wrap {
     z-index: 1100;
 }
+
+img {
+    cursor: zoom-in;
+}
+
+a {
+    img {
+        cursor: pointer;
+    }
+}
