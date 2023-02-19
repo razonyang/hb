@@ -1,0 +1,12 @@
+@if $hb-background-img != "" {
+    body {
+        background: center / cover no-repeat url($hb-background-img);
+    }
+
+    [data-bs-theme="dark"] {
+        body {
+            background-color: $body-bg-dark;
+            background-blend-mode: multiply;
+        }
+    }
+}
