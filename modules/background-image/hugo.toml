@@ -1,2 +1,5 @@
 [[module.imports]]
 path = "github.com/razonyang/hb"
+
+[params.hb.background_image]
+brightness = 0
