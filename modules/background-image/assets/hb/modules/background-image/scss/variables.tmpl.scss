@@ -1,5 +1,8 @@
 $hb-background-img: '';
 {{- with resources.GetMatch "images/background.*" }}
   {{- $bg := .Resize "1920x1080" }}
+  {{- with index $.params.hb.background_image "brightness" }}
+    {{- $bg = $bg.Filter (images.Brightness .) }}
+  {{- end }}
 $hb-background-img: '{{ $bg.RelPermalink }}';
 {{- end }}
