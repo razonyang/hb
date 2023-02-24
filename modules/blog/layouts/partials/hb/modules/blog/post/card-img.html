@@ -4,14 +4,10 @@
     class="hb-blog-post-card-img card-img-top"
     alt="{{ $.Title }}" />
 {{- else }}
-  {{- $images := $.Resources.ByType "image" -}}
-  {{- $featured := $images.GetMatch "*feature*" -}}
-  {{- if not $featured }}
-    {{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}
-  {{ end -}}
-  {{- with $featured -}}
+  {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
+  {{- with $thumbnail -}}
     <img
-      src="{{ $featured.Permalink }}"
+      src="{{ .Permalink }}"
       class="hb-blog-post-card-img card-img-top"
       alt="{{ $.Title }}" />
   {{- else }}
