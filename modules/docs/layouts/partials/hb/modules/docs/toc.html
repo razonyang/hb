@@ -1,3 +1,4 @@
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-toc-begin") }}
 {{- if partial "base/functions/has-toc" . }}
   <div class="h6 d-none d-md-block">{{ i18n "on_this_page" }}</div>
   <hr class="d-none d-md-block" />
@@ -17,3 +18,4 @@
     <div class="collapse hb-docs-doc-toc-collapse">{{ .TableOfContents }}</div>
   </div>
 {{- end }}
+{{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-doc-toc-end") }}
