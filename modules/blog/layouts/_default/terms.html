@@ -1,5 +1,5 @@
 {{- define "main" }}
-  <div class="row">
+  <div class="row align-items-center flex-grow-1">
     <div class="col-6 offset-3">
       <h1 class="mb-4 text-center">
         {{- .Title -}}
@@ -7,19 +7,16 @@
       </h1>
       <ul
         class="hb-terms-cloud list-unstyled ps-0 d-flex flex-wrap align-items-center justify-content-center"
-        role="navigation"
-      >
+        role="navigation">
         {{- range $i, $page := .Data.Pages }}
           {{- $totalPages := len .Pages }}
           {{- $fontSize := div $totalPages 3 }}
           {{- $fontSize = math.Min $fontSize 12 }}
-          <li>
+          <li class="mx-1 my-2">
             <a
-              class="m-2"
               data-total-pages="{{ $totalPages }}"
               href="{{ .RelPermalink }}"
-              style="--size: {{ $fontSize }};"
-            >
+              style="--size: {{ $fontSize }};">
               {{- .Title -}}
               <span class="ms-1">({{- $totalPages -}})</span>
             </a>
