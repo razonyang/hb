@@ -1,5 +1,6 @@
 .hb-blog-post-card-img {
     height: 160px;
+    object-fit: cover;
     width: auto;
     transition: 0.3s;
     border: 1px solid var(--#{$prefix}tertiary-bg);
