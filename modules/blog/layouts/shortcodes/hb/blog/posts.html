@@ -1,5 +1,5 @@
-{{- $sql := merge .Params (dict
-  "limit" 9)
+{{- $sql := merge (dict
+  "limit" 9) .Params
 }}
 {{- $pages := partial "hb/functions/pages" $sql }}
-{{ partial "hb/modules/blog/posts" $pages}}
+{{ partial "hb/modules/blog/posts" $pages }}
