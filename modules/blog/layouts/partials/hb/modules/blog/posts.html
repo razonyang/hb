@@ -1,6 +1,7 @@
-<div class="hb-blog-posts hb-module row">
-  {{ range . }}
-    <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+{{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
+<div class="hb-blog-posts hb-module row {{ $cols }}">
+  {{ range .Pages }}
+    <div class="col mb-3">
       {{ partialCached "hb/modules/blog/post/card" . . }}
     </div>
   {{ end }}
