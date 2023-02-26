@@ -1,0 +1,7 @@
+<div class="hb-blog-posts hb-module row">
+  {{ range . }}
+    <div class="col-12 col-md-6 col-lg-4 mb-3 mb-lg-4">
+      {{ partialCached "hb/modules/blog/post/card" . . }}
+    </div>
+  {{ end }}
+</div>
