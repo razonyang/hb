@@ -1,0 +1,56 @@
+.hb-carousel {
+    .carousel-img-placeholder {
+        background: rgba(var(--hb-body-color-rgb), 0.1);
+    }
+
+    .carousel-img,
+    .carousel-img-placeholder {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    @include media-breakpoint-up(md) {
+        .carousel-img,
+        .carousel-img-placeholder {
+            height: 320px;
+        }
+    }
+
+    .carousel-caption {
+        background: rgba(0, 0, 0, 75%);
+        bottom: 0;
+        color: rgba(255, 255, 255, 75%) !important;
+        left: 0;
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+        right: 0;
+        text-align: start;
+    }
+
+    .carousel-indicators {
+        justify-content: start;
+        margin-left: 1rem;
+
+        [data-bs-target] {
+            background-color: #fff !important;
+            border-radius: 50%;
+            height: 15px;
+            width: 15px;
+        }
+
+        [aria-current="true"] {
+            background-color: var(--#{$prefix}primary) !important;
+        }
+    }
+
+    .carousel-controls {
+        bottom: 2rem;
+        position: absolute;
+        right: 1rem;
+
+        .carousel-control {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 75%);
+        }
+    }
+}
