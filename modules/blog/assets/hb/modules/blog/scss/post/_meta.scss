@@ -1,6 +1,6 @@
 .hb-blog-post-meta {
     color: var(--#{$prefix}tertiary-color);
-    font-size: 0.85rem;
+    font-size: 0.825rem;
 
     * {
         margin: 0.125rem;
@@ -11,6 +11,13 @@
 
         &:last-child {
             margin-right: 0;
+        }
+
+        &:not(:last-child) {
+            &::after {
+                content: "·";
+                padding-left: 0.5rem;
+            }
         }
     }
 }

@@ -6,3 +6,6 @@ other = "下一页"
 
 [pagination_prev]
 other = "前一页"
+
+[reading_time]
+other = "{{ .Count }} 分钟阅读"
