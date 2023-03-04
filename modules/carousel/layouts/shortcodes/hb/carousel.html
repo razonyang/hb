@@ -1,5 +1,4 @@
 {{- $id := printf "carousel-%s" .Page.File.UniqueID }}
-{{- $summary := default false (.Get "summary") }}
 {{- $height := 360 }}
 {{- $pages := partial "hb/functions/pages" .Params }}
 <div id="{{ $id }}" class="hb-carousel carousel slide hb-module">
@@ -15,7 +14,7 @@
       {{- $first = false }}
     {{- end }}
   </div>
-  <div class="carousel-inner rounded border">
+  <div class="carousel-inner">
     {{- $first := true }}
     {{- range $pages }}
       {{- $imgURL := "" }}
@@ -29,7 +28,7 @@
         {{- if $img }}
           <img
             src="{{ $imgURL }}"
-            class="carousel-img d-block"
+            class="carousel-img d-block w-100"
             alt="{{ .Title }}" />
         {{- else }}
           <div class="carousel-img-placeholder"></div>
@@ -40,9 +39,6 @@
               {{- .Title -}}
             </a>
           </div>
-          {{- if $summary }}
-            <div class="d-none d-md-block mt-2">{{ .Summary }}</div>
-          {{- end }}
         </div>
       </div>
       {{- $first = false }}
