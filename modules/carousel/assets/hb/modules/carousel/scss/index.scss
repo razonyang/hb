@@ -1,3 +1,4 @@
+/*! purgecss start ignore */
 .hb-carousel {
     .carousel-img-placeholder {
         background: rgba(var(--hb-body-color-rgb), 0.1);
@@ -22,14 +23,15 @@
         color: rgba(255, 255, 255, 75%) !important;
         left: 0;
         padding-left: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 2.5rem;
         right: 0;
         text-align: start;
     }
 
     .carousel-indicators {
         justify-content: start;
-        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0.875rem;
 
         [data-bs-target] {
             background-color: #fff !important;
@@ -44,7 +46,7 @@
     }
 
     .carousel-controls {
-        bottom: 2rem;
+        bottom: 1.5rem;
         position: absolute;
         right: 1rem;
 
@@ -54,3 +56,5 @@
         }
     }
 }
+
+/*! purgecss end ignore */
