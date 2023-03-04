@@ -1,8 +1,5 @@
-{{- $sql := dict
-  "limit" (default 9 (.Get "limit"))
-  "section" (.Get "section")
-  "sorting" (.Get "sorting")
-  "type" (.Get "type")
+{{- $sql := merge (dict
+  "limit" 9) .Params
 }}
 {{- $pages := partial "hb/functions/pages" $sql }}
 {{ partial "hb/modules/blog/posts" (dict "Pages" $pages "Cols" (.Get "cols") "Summary" false) }}
