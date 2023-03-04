@@ -6,3 +6,6 @@ other = "Next"
 
 [pagination_prev]
 other = "Prev"
+
+[reading_time]
+other = "{{ .Count }} min read"
