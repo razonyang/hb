@@ -25,7 +25,7 @@
         {{- $imgURL = index .Params.images 0 | absURL }}
       {{- end }}
       <div class="carousel-item{{ cond $first ` active` `` }}">
-        {{- if $img }}
+        {{- if $imgURL }}
           <img
             src="{{ $imgURL }}"
             class="carousel-img d-block w-100"
