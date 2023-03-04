@@ -5,4 +5,4 @@
   "type" (.Get "type")
 }}
 {{- $pages := partial "hb/functions/pages" $sql }}
-{{ partial "hb/modules/blog/posts" (dict "Pages" $pages "Cols" (.Get "cols")) }}
+{{ partial "hb/modules/blog/posts" (dict "Pages" $pages "Cols" (.Get "cols") "Summary" false) }}

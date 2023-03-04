@@ -3,7 +3,7 @@
     <div class="slide-inner row gx-0">
       {{- range . }}
         <div class="col-12 col-md-6 col-lg-4 me-2">
-          {{ partial "hb/modules/blog/post/card" . }}
+          {{ partial "hb/modules/blog/post/card" (dict "Page" .) }}
         </div>
       {{- end -}}
     </div>

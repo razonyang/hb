@@ -1,8 +1,10 @@
 {{- $cols := default "row-cols-1 row-cols-lg-2 row-cols-xl-3" .Cols }}
+{{- $summary := default true .Summary }}
 <div class="hb-blog-posts hb-module row {{ $cols }}">
   {{ range .Pages }}
     <div class="col mb-3">
-      {{ partialCached "hb/modules/blog/post/card" . . }}
+      {{- $ctx := dict "Page" . "Summary" $summary }}
+      {{ partial "hb/modules/blog/post/card" $ctx }}
     </div>
   {{ end }}
 </div>
