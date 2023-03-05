@@ -2,4 +2,4 @@
   "limit" 9) .Params
 }}
 {{- $pages := partial "hb/functions/pages" $sql }}
-{{ partial "hb/modules/blog/posts" (dict "Pages" $pages "Cols" (.Get "cols") "Summary" false) }}
+{{ partial "hb/modules/blog/posts" (dict "Pages" $pages "Cols" (.Get "cols") "Summary" false "ReadingTime" false) }}
