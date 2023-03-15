@@ -1,9 +1,11 @@
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/razonyang/hb v0.8.0 h1:JRiKwtRHiAP6J4NbQJX4htqk3dpoWcqUoZf0gppTqBU=
-github.com/razonyang/hb v0.8.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hb/modules/base v0.4.0 h1:zkgHLltX3Ax4EwEfMgH3eQgDMH8TmSPPMVrJ2M2sm+k=
 github.com/razonyang/hb/modules/base v0.4.0/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
+github.com/razonyang/hb/modules/carousel v0.2.0 h1:/JWEYEbpFBnRUoRxVO4TvWcYa+UtFbt/XLh1LoO5Blc=
+github.com/razonyang/hb/modules/carousel v0.2.0/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
 github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+buSb5NyFJc=
 github.com/razonyang/hugo-mod-base v0.3.0/go.mod h1:ZcaKeMZdNIRcijaDnpzluS5CJyUwWl42FEbtVo5UKZE=
 github.com/razonyang/hugo-mod-icons v0.5.0 h1:SEm+CqNbm02ULwyCHBwPuZJUlHQ/uh8IYbqaEDFokhg=

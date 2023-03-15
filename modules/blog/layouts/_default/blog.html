@@ -1,0 +1,22 @@
+{{- define "main" }}
+<div class="row">
+  <div class="col-12 col-lg-6">
+    {{- $featuredPages := first 10 (where site.RegularPages ".Params.featured" true) }}
+    {{- partial "hb/modules/carousel/carousel" (dict "Pages" $featuredPages) -}}
+  </div>
+  <div class="col-12 col-lg-6">
+    {{- $pinnedPages := first 2 (where site.RegularPages ".Params.pinned" true) }}
+    {{ partial "hb/modules/blog/posts" (dict "Pages" $pinnedPages "Cols" "row-cols-2" ) }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-lg-8">
+    {{- $recentPages := first 10 site.RegularPages }}
+    {{ partial "hb/modules/blog/posts" (dict "Pages" $recentPages "Cols" "row-cols-2" ) }}
+  </div>
+  <div class="col-12 col-lg-4">
+    {{- $pinnedPages := first 2 (where site.RegularPages ".Params.pinned" true) }}
+    {{ partial "hb/modules/blog/taxonomies" (dict "limit" 20) }}
+  </div>
+</div>
+{{- end -}}
