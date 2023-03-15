@@ -10,7 +10,7 @@ require (
 	github.com/razonyang/hugo-mod-icons v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-icons-bootstrap v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-idb v0.1.0 // indirect
-	github.com/razonyang/hugo-mod-pwa v0.3.1 // indirect
+	github.com/razonyang/hugo-mod-pwa v0.3.2 // indirect
 	github.com/razonyang/hugopress v0.7.1 // indirect
 	github.com/twbs/icons v1.10.3 // indirect
 )
