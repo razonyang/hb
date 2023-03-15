@@ -1,32 +1,25 @@
 {{- define "main" }}
-  <div class="row">
-    <div class="col-xxl-2">
+  <div class="hb-docs">
+    <div class="hb-docs-sidebar" tabindex="-1" data-bs-hide="focusout">
       {{ partial "hb/modules/docs/nav" . }}
     </div>
-    <div class="hb-docs-main col-xxl-10">
-      <div class="row">
-        <div class="col-12">
-          {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-begin") }}
-        </div>
-        <h1 class="mb-3 col-12">{{ .Title }}</h1>
-        <div class="hb-docs-doc-meta col-12 mb-3 text-body-secondary">
-          {{- partial "hb/modules/docs/doc/meta" . }}
-        </div>
-        <div class="col-12">
-          <div class="row">
-            <div
-              class="hb-docs-toc col-12 col-xxl-2 text-body-secondary order-xxl-5">
-              {{ partial "hb/modules/docs/toc" . }}
-            </div>
-            <div class="col-12 col-xxl-10">
-              {{ partial "hb/modules/docs/doc" . }}
-            </div>
+    <div class="hb-docs-main">
+      {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-begin") }}
+      <div class="hb-docs-doc">
+        <div class="hb-docs-doc-intro">
+          <h1 class="mb-3">{{ .Title }}</h1>
+          <div class="hb-docs-doc-meta mb-3 text-body-secondary">
+            {{- partial "hb/modules/docs/doc/meta" . }}
           </div>
         </div>
-        <div class="col-12">
-          {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-end ") }}
+        <div class="hb-docs-doc-toc ps-lg-3 text-body-secondary">
+          {{ partial "hb/modules/docs/toc" . }}
+        </div>
+        <div class="hb-docs-doc-main">
+          {{ partial "hb/modules/docs/doc" . }}
         </div>
       </div>
+      {{ partial "hugopress/functions/render-hooks" (dict "Page" . "Name" "hb-docs-main-end ") }}
     </div>
   </div>
 {{- end -}}

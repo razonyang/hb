@@ -1,0 +1,36 @@
+.hb-docs {
+    @include media-breakpoint-up(lg) {
+        display: grid;
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 1fr 5fr;
+        gap: 1.5rem;
+    }
+}
+
+.hb-docs-main {
+    grid-area: main;
+}
+
+.hb-docs-doc {
+    display: grid;
+    grid-template-areas:
+        "intro"
+        "toc"
+        "main";
+    grid-template-rows: auto auto 1fr;
+
+    @include media-breakpoint-up(lg) {
+        grid-template-areas:
+            "intro toc"
+            "main toc";
+        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 4fr 1fr;
+        /* stylelint-enable declaration-block-no-redundant-longhand-properties */
+    }
+}
+
+.hb-docs-doc-main {
+    grid-area: main;
+    min-width: 1px;
+}
