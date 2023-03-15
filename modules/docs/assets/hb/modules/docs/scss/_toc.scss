@@ -1,6 +1,8 @@
 .hb-docs-nav,
-.hb-docs-toc {
-    @include media-breakpoint-up(xxl) {
+.hb-docs-doc-toc {
+    grid-area: toc;
+
+    @include media-breakpoint-up(lg) {
         position: sticky;
         top: 86px;
         height: calc(100vh - 86px);
@@ -8,8 +10,8 @@
     }
 }
 
-.hb-docs-toc {
-    @include media-breakpoint-down(xxl) {
+.hb-docs-doc-toc {
+    @include media-breakpoint-down(lg) {
         color: var(--#{$prefix}body-color) !important;
         margin: 0.5rem 0 1rem;
 
