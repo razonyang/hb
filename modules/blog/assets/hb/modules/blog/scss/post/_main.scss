@@ -10,7 +10,10 @@
         grid-template-areas:
             "intro toc"
             "main toc";
-        grid-template-rows: auto 1fr / 4fr 1fr;
+        /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 4fr 1fr;
+        /* stylelint-enable declaration-block-no-redundant-longhand-properties */
     }
 }
 
