@@ -4,3 +4,5 @@ github.com/henrygd/bigger-picture v1.1.7 h1:PFGp5Yg5z+pmlDDyHYlx0xTQqhc95tqXOjD4
 github.com/henrygd/bigger-picture v1.1.7/go.mod h1:LayqbjDNNsZH+ZXklmjBe5T02qxpH9Cah/ygAraOBIk=
 github.com/razonyang/hb v0.6.0 h1:BpiqtgJ1P95SsDtXX24RnxlYW5a5i0jGBwKQqbqvqnA=
 github.com/razonyang/hb v0.6.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=

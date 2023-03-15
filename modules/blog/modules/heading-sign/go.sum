@@ -1,0 +1,14 @@
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 h1:wUe8RXjpJYs83CucuWJT7XuqCzQ52f5/N7zlV8woHEg=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101/go.mod h1:Z5Bhe4pfn8reoHhWqCQMWEAynLCIeBAt1TDwni4fipM=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb/modules/blog v0.7.1 h1:NQ+Wl0XOnMNXa1oODa/Qgx+17sifRiDDJ6V0k++R/WE=
+github.com/razonyang/hb/modules/blog v0.7.1/go.mod h1:i5ZF7qKABapKnUHO/hOOGY6kJHjchtNf6+zBLgKZAZ4=
+github.com/razonyang/hb/modules/footer v0.2.5 h1:/rxazAKu5gMKOjthH3iVIIBYWcx5xgqOb87M8+tZIRo=
+github.com/razonyang/hb/modules/footer v0.2.5/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
+github.com/razonyang/hb/modules/header v0.1.9 h1:BdxkH3j1AeIDY74k5JX/zeRzQrNbcGqEMls2j7uwUGw=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/heading-sign v0.1.0 h1:NTjdLY7zfCFOcoqoUXnd3yq1zjMWt0tXZNSpFDyWxVA=
+github.com/razonyang/hb/modules/heading-sign v0.1.0/go.mod h1:nTda94YVNBe2v7JVFnFpm3gTIQ2iyR+gFwJvwmH+qIs=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
+github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

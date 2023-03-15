@@ -2,6 +2,8 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
 github.com/razonyang/hb v0.4.0/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
+github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hb/modules/snackbar v0.1.0 h1:YrDTCZqUWqMM38MVUvxA3st7eEnpK6eSoXJqC/t9Bfc=
 github.com/razonyang/hb/modules/snackbar v0.1.0/go.mod h1:HQDhKst1QEVRpDJxvy5/Z3/PZrzzSzQZ+HMDkDmHVZk=
 github.com/razonyang/hugo-mod-code-block-panel v0.1.2 h1:LPwtUtR6pAUfLkMD0/IYT0Dh8AnlV4nFIl7BnR0t9dk=
