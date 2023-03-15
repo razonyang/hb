@@ -4,8 +4,6 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
 github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
-github.com/razonyang/hb/modules/base v0.1.0 h1:Ylp9oj0Yq2gCGV83ZLbaxd2/xKic/oYd3Mg0kJ70YgE=
-github.com/razonyang/hb/modules/base v0.1.0/go.mod h1:MQuoQsQvDDc+5j5HSrb0/5AyVRxYMf2QCnTeQjvIC60=
 github.com/razonyang/hb/modules/base v0.4.0 h1:zkgHLltX3Ax4EwEfMgH3eQgDMH8TmSPPMVrJ2M2sm+k=
 github.com/razonyang/hb/modules/base v0.4.0/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
@@ -14,12 +12,8 @@ github.com/razonyang/hugo-mod-icons-bootstrap v0.2.0 h1:oPXiChKQxtC5xj9DZLrLlERZ
 github.com/razonyang/hugo-mod-icons-bootstrap v0.2.0/go.mod h1:SUvnZyVLycwUSLDFdmehibozDym6yT/xfEaC/US0wHE=
 github.com/razonyang/hugo-mod-idb v0.1.0 h1:YUvilC3uxN1y/5pScFCKGzVT3Wt9gfKjLIYRnWpm7a0=
 github.com/razonyang/hugo-mod-idb v0.1.0/go.mod h1:+CxIx22+zAP2bOewK04EHly8bW5VeSYdoy8zmy6UL64=
-github.com/razonyang/hugo-mod-pwa v0.1.0 h1:6jRpWzZKCHOyGOhC+uOwK5deSEFMI5ctO11KYs1nAgc=
-github.com/razonyang/hugo-mod-pwa v0.1.0/go.mod h1:AyogD5I7yC7YGLWdaGBZx1XyqXNrZTswcjk4FdWi/uU=
-github.com/razonyang/hugo-mod-pwa v0.3.1 h1:KIJw/cyPJGVOeunF8TOJfttefdDoV6ir8h1pLgZu3ow=
-github.com/razonyang/hugo-mod-pwa v0.3.1/go.mod h1:MKyqFzBSokuaLsJ52Um4BXF0at26I6ZAfLq3KZom2sE=
-github.com/razonyang/hugopress v0.5.0 h1:3cUSiFQvjM9v4mkqVYdApEMLs7yB2B8vQg1ALV54CCw=
-github.com/razonyang/hugopress v0.5.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/razonyang/hugo-mod-pwa v0.3.2 h1:ccUZZxsXDcT8spwun0ylZVitLys7bIbVaEg9GQvGSzA=
+github.com/razonyang/hugo-mod-pwa v0.3.2/go.mod h1:M1qKXcwZVBAPIszLul2Wy6GBhlGq07jIVB/EVZkOwrU=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
