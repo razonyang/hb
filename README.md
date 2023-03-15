@@ -11,4 +11,5 @@ HB is a Hugo theme framework that built on top of [Hugo](https://gohugo.io) and 
 
 
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frazonyang%2Fhb.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frazonyang%2Fhb?ref=badge_large)
