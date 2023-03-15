@@ -4,6 +4,9 @@
 <ul class="nav nav-{{ $style }} nav-justified mb-2" role="tablist">
   {{- $first := true }}
   {{- range $name, $taxonomy := site.Taxonomies }}
+    {{- if not $taxonomy }}
+      {{- continue }}
+    {{- end }}
     {{- $page := site.GetPage $name }}
     <li class="nav-item" role="presentation">
       <button
@@ -24,6 +27,9 @@
 <div class="tab-content mb-4">
   {{- $first := true }}
   {{- range $name, $taxonomy := site.Taxonomies }}
+    {{- if not $taxonomy }}
+      {{- continue }}
+    {{- end }}
     <div
       class="tab-pane fade{{ cond $first ` show active` `` }}"
       id="taxonomy-{{ $name }}-tab-pane"
