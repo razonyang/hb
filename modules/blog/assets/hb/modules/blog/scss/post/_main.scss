@@ -1,0 +1,19 @@
+.hb-blog-post {
+    display: grid;
+    grid-template-areas:
+        "intro"
+        "toc"
+        "main";
+    grid-template-rows: auto auto 1fr;
+
+    @include media-breakpoint-up(lg) {
+        grid-template-areas:
+            "intro toc"
+            "main toc";
+        grid-template-rows: auto 1fr / 4fr 1fr;
+    }
+}
+
+.hb-blog-post-main {
+    grid-area: main;
+}
