@@ -3,10 +3,16 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/razonyang/hb v0.4.2 h1:XgzrbTeyrdEPT+mHj45KL4nLvONFy9hYjZ7lDy2HoiA=
 github.com/razonyang/hb/modules/header v0.1.2 h1:0gVR0Og6n284mL9/om8E3ZwCONaigHKKaKESNBOQV6g=
 github.com/razonyang/hb/modules/header v0.1.2/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.9 h1:BdxkH3j1AeIDY74k5JX/zeRzQrNbcGqEMls2j7uwUGw=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hb/modules/socials v0.2.0 h1:d52Lb91G7iXwHz77OXr8LHEHCBvTwAtrm5toJXxvs5U=
 github.com/razonyang/hb/modules/socials v0.2.0/go.mod h1:z2kNm83FVejDUXTxqsng5XQ1XNsOcWesQJVuvUOpXqI=
+github.com/razonyang/hb/modules/socials v0.3.1 h1:OzewEtOzjI+OFP8ZbZfRzHzxHeRAE4oKCJEpy2RGjCU=
+github.com/razonyang/hb/modules/socials v0.3.1/go.mod h1:XNYDYowVyIz2owO0E9stw0OIn+GFllDSe448c/4Yi8Y=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/razonyang/simple-icons v8.6.0+incompatible h1:5F0ZraY2piumTBEPoi0dfNY8QE1w9H84g3U400xPTog=
+github.com/razonyang/simple-icons v8.6.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
 github.com/simple-icons/simple-icons v2.17.1+incompatible h1:bZgl1gWxwNGgM57/RS50pb/6tGFXW6Jr95kYaZwvGJ0=
 github.com/simple-icons/simple-icons v2.17.1+incompatible/go.mod h1:oOgUUt8yVYOso/wEBi2ojfZP2MU/xxiNccIpaE+jCvE=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=

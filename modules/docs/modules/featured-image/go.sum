@@ -2,8 +2,12 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/razonyang/hb v0.5.0 h1:M2s0ghfPHr6J5suzcPSjUHpm0OCi7HupGqQA3FABDfI=
 github.com/razonyang/hb v0.5.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hb/modules/docs v0.1.0 h1:CdSNQ1MTHi4wegMVxjB5lPqOntql15Ns8fNCv0BWifk=
 github.com/razonyang/hb/modules/docs v0.1.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
+github.com/razonyang/hb/modules/docs v0.2.0 h1:6MvPNLcAba48rSPKxextiNLwwGf49D5FZ+ttmPONwEg=
+github.com/razonyang/hb/modules/docs v0.2.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
 github.com/razonyang/hugo-mod-icons v0.4.1 h1:gJIuV9fVWzfy5GgBbUpqUNYjRO80pAFl0F5tfQg1aLo=
 github.com/razonyang/hugo-mod-icons v0.4.1/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=

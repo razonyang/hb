@@ -2,9 +2,15 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/razonyang/hb v0.4.2 h1:XgzrbTeyrdEPT+mHj45KL4nLvONFy9hYjZ7lDy2HoiA=
 github.com/razonyang/hb v0.4.2/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
 github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0 h1:SEm+CqNbm02ULwyCHBwPuZJUlHQ/uh8IYbqaEDFokhg=
+github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.2.1 h1:/h3CwD0I2E5mCj8+94VzA2uA+RpQ/k+Bh9hr3JnwWNs=
 github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.2.1/go.mod h1:dy8OffPPC7C97baKVUXnD+uJhGZz63Cc7RpUHiH65iI=
+github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0 h1:HGndQHcg1jLieJPNLayMQ/QsEMdTemnL2spg4ecTy/c=
+github.com/razonyang/hugo-mod-icons/vendors/simple-icons v0.3.0/go.mod h1:E3Ula/JO4CCZXLlhISwDT71bG/GOLowYhsCEpFvQs04=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=

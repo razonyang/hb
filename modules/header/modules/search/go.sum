@@ -5,6 +5,8 @@ github.com/krisk/Fuse v6.6.2+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbd
 github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
 github.com/razonyang/hb/modules/header v0.1.3 h1:3+JQ1DLDYZNTFZX257XAsGLDjp5QlDJjlfNQlvWb660=
 github.com/razonyang/hb/modules/header v0.1.3/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.9 h1:BdxkH3j1AeIDY74k5JX/zeRzQrNbcGqEMls2j7uwUGw=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hb/modules/search v0.1.0 h1:PEw3MNKAgC4rBMyE1sxR3mRpXsyqDRWWgtX4LYj1tlg=
 github.com/razonyang/hb/modules/search v0.1.0/go.mod h1:VFDoBl+BhuAOPWuItFYzYKZNzHgGmHMjs9VFC8WSDi0=
 github.com/razonyang/hugo-mod-fuse-js v0.1.0 h1:IPWcKaqhpwlP8ziPiSGCrde6oSCswLfJWhXSCvjcOlk=
@@ -13,8 +15,12 @@ github.com/razonyang/hugo-mod-i18n-js v0.2.1 h1:QBRQ76p5PX0j7GZTeEmnkqF17uw4Z5Oy
 github.com/razonyang/hugo-mod-i18n-js v0.2.1/go.mod h1:tYWfHF0qtvmsMHHgGN1Yw/cDVgGe7hUK1sCsegW5e8g=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
 github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0 h1:SEm+CqNbm02ULwyCHBwPuZJUlHQ/uh8IYbqaEDFokhg=
+github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0 h1:DCMA8MUdo0eRQGTmlBGzCGFTThYv9hSLsRGBdKrWtJ8=
 github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0/go.mod h1:qpjpOVApH3ioWClhE05ja646/w6Wy4lz2mUA16JofEI=
+github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 h1:B7OKKcMLx0LkuuEJqAD++Pa7jDuRj5m/fsRXveAxyRI=
+github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0/go.mod h1:Trbpo1D/X/yRvQ7vWVEwePvcERoxA9JVYKe7wzlh/hA=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
