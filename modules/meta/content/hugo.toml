@@ -1,0 +1,8 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/mermaid"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/bootstrap"
+
+[[module.imports]]
+path = "github.com/razonyang/hugo-mod-images"

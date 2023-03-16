@@ -1,0 +1,14 @@
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 h1:wUe8RXjpJYs83CucuWJT7XuqCzQ52f5/N7zlV8woHEg=
+github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101/go.mod h1:Z5Bhe4pfn8reoHhWqCQMWEAynLCIeBAt1TDwni4fipM=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/razonyang/hb/modules/bootstrap v0.1.0 h1:XJJ+LCn/8Vu6g21ACYfbE0IkHcBVT279HY+QF+Yv5IA=
+github.com/razonyang/hb/modules/bootstrap v0.1.0/go.mod h1:QCoMAZuDHz9/oDpy9FchkrOzlmhmEAPgV1VWvABKcUA=
+github.com/razonyang/hb/modules/mermaid v0.1.0 h1:1S3pNHw9TyT4/1EDNty0Qtox+jWq7yeeOJYZrS/ABhM=
+github.com/razonyang/hb/modules/mermaid v0.1.0/go.mod h1:F7a2zejyBwIXHg2Jwl2OJ3qfuMa3bZs5BzXpNdKNKkc=
+github.com/razonyang/hugo-mod-images v0.1.1 h1:c7AMnvAQ/jhvG9j0T6+j3Xg+T6PbyGXPJZ4wrdFU+oI=
+github.com/razonyang/hugo-mod-images v0.1.1/go.mod h1:Qj7zhXYpVCIjk/ClRQ23vvo4daZnARyFMC24lm0q3eM=
+github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
+github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
+github.com/twbs/icons v1.10.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
