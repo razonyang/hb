@@ -2,7 +2,7 @@
 path = "github.com/razonyang/hugopress"
 
 [[module.imports]]
-path = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/blog"
 
 [[module.imports]]
 path = "github.com/razonyang/hugo-mod-icons/vendors/bootstrap"
