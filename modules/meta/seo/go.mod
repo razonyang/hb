@@ -1,4 +1,4 @@
-module github.com/razonyang/hb/modules/meta/standard
+module github.com/razonyang/hb/modules/meta/seo
 
 go 1.19
 
