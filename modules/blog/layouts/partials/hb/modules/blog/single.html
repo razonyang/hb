@@ -1,17 +1,12 @@
 {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-blog-main-begin" "Page" .) }}
 <div class="hb-blog-post hb-module position-relative">
   <div class="hb-blog-post-intro">
-    <h1 class="hb-blog-post-title mb-2">
-      {{- .Title -}}
-    </h1>
+    <h1 class="hb-blog-post-title mb-2">{{ .Title }}</h1>
     <div class="hb-blog-post-meta mb-2">
-      <span class="hb-blog-post-date">
-        {{- partialCached "hb/modules/blog/post/date" . . -}}
-      </span>
-      <span class="hb-blog-post-reading-time">
-        {{- i18n "reading_time" (dict "Count" .ReadingTime) -}}
-      </span>
-      {{- partialCached "hb/modules/blog/post/taxonomies" . . -}}
+      {{ partialCached "hb/modules/blog/post/meta/authors" . . }}
+      {{ partialCached "hb/modules/blog/post/meta/date" . . }}
+      {{ partialCached "hb/modules/blog/post/meta/reading-time" . . }}
+      {{ partialCached "hb/modules/blog/post/meta/taxonomies" . . }}
     </div>
   </div>
   <div

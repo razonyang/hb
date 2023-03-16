@@ -1,8 +1,10 @@
 .hb-blog-post-meta {
+    align-items: center;
     color: var(--#{$prefix}tertiary-color);
+    display: flex;
     font-size: 0.825rem;
 
-    * {
+    span {
         margin: 0.125rem;
 
         &:first-child {
@@ -16,7 +18,7 @@
         &:not(:last-child) {
             &::after {
                 content: "·";
-                padding-left: 0.5rem;
+                padding-left: 0.25rem;
             }
         }
     }
