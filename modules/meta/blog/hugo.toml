@@ -1,0 +1,17 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog/modules/breadcrumb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog/modules/featured-image"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog/modules/heading-sign"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog/modules/post-nav"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/blog/modules/related-posts"
