@@ -15,7 +15,8 @@ require (
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
 	github.com/razonyang/hb/modules/search v0.1.0 // indirect
 	github.com/razonyang/hb/modules/socials v0.3.1 // indirect
-	github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0 // indirect
+	github.com/razonyang/hb/modules/syntax-highlighting v0.1.0 // indirect
+	github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.2.0 // indirect
 	github.com/razonyang/hugo-mod-bootstrap v0.6.4 // indirect
 	github.com/razonyang/hugo-mod-fuse-js v0.1.0 // indirect
 	github.com/razonyang/hugo-mod-i18n-js v0.2.1 // indirect
