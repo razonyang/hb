@@ -8,7 +8,7 @@ require (
 	github.com/krisk/Fuse v6.6.2+incompatible // indirect
 	github.com/razonyang/hb/modules/back-to-top v0.2.0 // indirect
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
-	github.com/razonyang/hb/modules/bigger-picture v0.1.1 // indirect
+	github.com/razonyang/hb/modules/bigger-picture v0.1.2 // indirect
 	github.com/razonyang/hb/modules/breadcrumb v0.1.2 // indirect
 	github.com/razonyang/hb/modules/carousel v0.2.0 // indirect
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
@@ -18,7 +18,7 @@ require (
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/standard v0.2.0 // indirect
+	github.com/razonyang/hb/modules/meta/standard v0.2.1 // indirect
 	github.com/razonyang/hb/modules/noscript v0.1.0 // indirect
 	github.com/razonyang/hb/modules/progress-bar v0.3.1 // indirect
 	github.com/razonyang/hb/modules/pwa v0.1.1 // indirect
