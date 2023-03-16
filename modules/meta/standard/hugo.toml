@@ -1,0 +1,14 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/blog"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/content"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/footer"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/header"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/seo"
