@@ -6,7 +6,7 @@
   {{- with $page.GetTerms $kind }}
     {{- range . }}
       <a
-        class="hb-blog-post-taxonomy hb-blog-post-taxonomy-{{ $kind | singularize }} badge bg-secondary text-decoration-none fw-normal me-1 my-1"
+        class="hb-blog-post-taxonomy hb-blog-post-taxonomy-{{ $kind | singularize }} badge bg-secondary text-decoration-none fw-normal ms-1 my-1"
         href="{{ .RelPermalink }}">
         {{- .Title -}}
       </a>
