@@ -20,13 +20,13 @@ go 1.18
 EOT
   fi
 
-  if [ ! -f "$dir/hugo.toml" ]
-  then
-    cat <<EOT >> "$dir/hugo.toml"
+  cat <<EOT > "$dir/hugo.toml"
 [[module.imports]]
-path = "github.com/razonyang/hb"
+path = "github.com/razonyang/hb/modules/syntax-highlighting"
 EOT
-  fi
 
-  hugo gen chromastyles --style="$style" > "$dir/assets/hb/modules/syntax-highlighting/scss/index.scss"
+  hugo mod get -u
+  hugo mod tidy 
+
+  hugo gen chromastyles --style="$style" > "$dir/assets/hb/modules/syntax-highlighting/scss/_style.scss"
 done
