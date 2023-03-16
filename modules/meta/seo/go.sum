@@ -1,0 +1,16 @@
+github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0 h1:nbAflzsav8HJAu9pntSJsf3/EUxSREDoEQFGlvZdxyI=
+github.com/razonyang/hugo-mod-seo/modules/alternatives v0.1.0/go.mod h1:La9Y9q7Jz2bmkx6ScfwrZem+MCzzFIFlxVeIgrPCN98=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
+github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
+github.com/razonyang/hugo-mod-seo/modules/favicons v0.1.0 h1:KUL6TxCVg0OMtjeRlpZr+J9Vv3m379moAMfxq1/VUbY=
+github.com/razonyang/hugo-mod-seo/modules/favicons v0.1.0/go.mod h1:lYZWPq4W2wC98kyo6badOzU8b7EpkqYR/yJdfU3rAy0=
+github.com/razonyang/hugo-mod-seo/modules/open-graph v0.1.0 h1:YN80HqDYEyjUswUQJWLzNiwAMhLalpICcfF5F+olRuc=
+github.com/razonyang/hugo-mod-seo/modules/open-graph v0.1.0/go.mod h1:lP3h3Kx0rfH7zteNP4g/zPTibQP7SxU8MDBRCCTuxcY=
+github.com/razonyang/hugo-mod-seo/modules/schema v0.1.0 h1:vaVs6IiVGM7mwOXGEFGKLw4XbSNNRNJmVbEJI42Xkyo=
+github.com/razonyang/hugo-mod-seo/modules/schema v0.1.0/go.mod h1:geFMbzjBccmRaGSXs9Y6Lqv8XaHzfX3+jPbmlHbCEDA=
+github.com/razonyang/hugo-mod-seo/modules/translations v0.1.0 h1:ryOXaWRBNoGlZMzPWCO/qdrSQijrxPt98CmahyCiYcA=
+github.com/razonyang/hugo-mod-seo/modules/translations v0.1.0/go.mod h1:+kknIu/xdxcU0bIgk1Btymobjd2F/hVRRXLe6FG9XxA=
+github.com/razonyang/hugo-mod-seo/modules/twitter-cards v0.1.0 h1:F3fZjGa0bMoRD/5xbBinBvv4zLiHZ58QE4EvILDPCpA=
+github.com/razonyang/hugo-mod-seo/modules/twitter-cards v0.1.0/go.mod h1:kwlMxAvV0Qmn9XxzbanLEHmymj/Vx8qSARnEBJDTaXE=
+github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
+github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
