@@ -3,6 +3,7 @@
     color: var(--#{$prefix}tertiary-color);
     display: flex;
     font-size: 0.825rem;
+    flex-wrap: wrap;
 
     span {
         margin: 0.125rem;
