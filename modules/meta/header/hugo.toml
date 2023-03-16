@@ -1,0 +1,14 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header/modules/language-picker"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header/modules/socials"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header/modules/search"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/header/modules/theme-toggle"
