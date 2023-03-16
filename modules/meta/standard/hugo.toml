@@ -12,3 +12,6 @@ path = "github.com/razonyang/hb/modules/meta/header"
 
 [[module.imports]]
 path = "github.com/razonyang/hb/modules/meta/seo"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox"

@@ -24,6 +24,8 @@ github.com/razonyang/hb/modules/search v0.1.0 h1:PEw3MNKAgC4rBMyE1sxR3mRpXsyqDRW
 github.com/razonyang/hb/modules/search v0.1.0/go.mod h1:VFDoBl+BhuAOPWuItFYzYKZNzHgGmHMjs9VFC8WSDi0=
 github.com/razonyang/hb/modules/socials v0.3.1 h1:OzewEtOzjI+OFP8ZbZfRzHzxHeRAE4oKCJEpy2RGjCU=
 github.com/razonyang/hb/modules/socials v0.3.1/go.mod h1:XNYDYowVyIz2owO0E9stw0OIn+GFllDSe448c/4Yi8Y=
+github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0 h1:XLq29D5h73zD2QL0D4OTndBMsfQ11t4Rs+VcvkU7gCg=
+github.com/razonyang/hb/modules/syntax-highlighting/styles/gruvbox v0.1.0/go.mod h1:rCXOFsQA+sCy7njKML/LNAwLl86uvoTugqLX1oqSPlo=
 github.com/razonyang/hugo-mod-bootstrap v0.6.4 h1:6xLMj+1b84tUscaOcpx2sSdybzFUSMkRiaHCg1yHOoQ=
 github.com/razonyang/hugo-mod-bootstrap v0.6.4/go.mod h1:hRonTOd2IvGCfK43V1BrSG9lobfAn9ASSt5EtN1o2Ws=
 github.com/razonyang/hugo-mod-fuse-js v0.1.0 h1:IPWcKaqhpwlP8ziPiSGCrde6oSCswLfJWhXSCvjcOlk=
