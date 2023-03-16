@@ -1,0 +1,26 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/back-to-top"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/bigger-picture"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/code-block-panel"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/docs"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/meta/standard"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/noscript"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/progress-bar"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/pwa"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/scrollbar"
