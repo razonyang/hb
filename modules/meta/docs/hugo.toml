@@ -1,0 +1,14 @@
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs/modules/breadcrumb"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs/modules/featured-image"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs/modules/heading-sign"
+
+[[module.imports]]
+path = "github.com/razonyang/hb/modules/docs/modules/doc-nav"
