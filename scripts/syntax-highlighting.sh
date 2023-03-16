@@ -28,5 +28,8 @@ path = "github.com/razonyang/hb"
 EOT
   fi
 
-  hugo gen chromastyles --style="$style" > "$dir/assets/hb/modules/syntax-highlighting/scss/index.scss"
+  style="$dir/assets/hb/modules/syntax-highlighting/scss/index.scss"
+  hugo gen chromastyles --style="$style" > "$style"
+  
+  echo -e "/*! purgecss start ignore */\n$(cat $style)\n/*! purgecss end ignore */" > $style
 done
