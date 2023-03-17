@@ -18,8 +18,8 @@ github.com/razonyang/hb/modules/carousel v0.2.0 h1:/JWEYEbpFBnRUoRxVO4TvWcYa+UtF
 github.com/razonyang/hb/modules/carousel v0.2.0/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
 github.com/razonyang/hb/modules/code-block-panel v0.1.1 h1:BtzFwYBTXgD4j9SJFzPqf+INCfMb3lwKwO2YZMnF0Qo=
 github.com/razonyang/hb/modules/code-block-panel v0.1.1/go.mod h1:0pd73yUEubuHSja8iJri2YmL+AkPsBD8QnMYeF9jyFY=
-github.com/razonyang/hb/modules/meta/blog v0.1.1 h1:uW1wANyNwSghnONWDcg176fd75LjJrJ22LRK+mu+JYo=
-github.com/razonyang/hb/modules/meta/blog v0.1.1/go.mod h1:ZILXpaLrNZ1ojZRnG03b8EqL/TrUymSV9FAxF71rljc=
+github.com/razonyang/hb/modules/meta/blog v0.1.2 h1:g67mny9sqvbMyZANPeg+71WFTSmgZaudwtzLoAkmvhM=
+github.com/razonyang/hb/modules/meta/blog v0.1.2/go.mod h1:4CHKDGZr3/s5OMJN54AocDWMVhKnz07cP1PsPkkoOgg=
 github.com/razonyang/hb/modules/meta/content v0.1.0 h1:dBxzXXJNaPcS31IyV9meuGQxvlfcC47OyVgJhmjLffc=
 github.com/razonyang/hb/modules/meta/content v0.1.0/go.mod h1:O1v5inc8GoAUAGD/0WXg2vVOgNlWDKZeBb4BVPeThlI=
 github.com/razonyang/hb/modules/meta/docs v0.1.1 h1:fY/DVveT0o7fb2n3ssfM+YB732QC42l/LVjYvVgAe+8=
@@ -30,8 +30,8 @@ github.com/razonyang/hb/modules/meta/header v0.1.0 h1:y9Eztdzg7CUiIxZ+K1GrLrGkvW
 github.com/razonyang/hb/modules/meta/header v0.1.0/go.mod h1:XFzDRcmZg8NsYsE9pvDKWYfK4AHcfOEnENC9euLtyQo=
 github.com/razonyang/hb/modules/meta/seo v0.1.0 h1:bjjiX2VzEd8ValRbAK4n3owq1RFxhKDudrFdU1usIsY=
 github.com/razonyang/hb/modules/meta/seo v0.1.0/go.mod h1:BL1OUq7M92h23lyj0UC7B8sM1cs8UL6SqHq/137jCiA=
-github.com/razonyang/hb/modules/meta/standard v0.2.1 h1:h6rkTh7cMyDzK6iBSAc5Bk6uy45TNaaYJwGiT8hDfqQ=
-github.com/razonyang/hb/modules/meta/standard v0.2.1/go.mod h1:PEhDksib5VoTbIT2PFRN/lgkALyNPS3L1LwqCQykD+s=
+github.com/razonyang/hb/modules/meta/standard v0.2.2 h1:5FrMjk5+zXpmHjIahdoGelDvGxNTz+KmMPoym4CEzWo=
+github.com/razonyang/hb/modules/meta/standard v0.2.2/go.mod h1:n7f4Z6BiQAZXvK2Le0DELSdDRclIPfqVHH1E/eDAe0w=
 github.com/razonyang/hb/modules/noscript v0.1.0 h1:ww77zRfu3CMAwsrkmnsf/G/ogvqYJvlryEp1q+00QG0=
 github.com/razonyang/hb/modules/noscript v0.1.0/go.mod h1:QcgwDCaXyvXRASHa9vmRs3ppanv1UR8JbH2lEiUNBvA=
 github.com/razonyang/hb/modules/progress-bar v0.3.1 h1:3uwkU4KrTNfsGgaRC/cv9/hF6XkUyKsUOuA3HMalMAc=
