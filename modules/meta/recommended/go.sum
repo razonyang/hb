@@ -22,8 +22,8 @@ github.com/razonyang/hb/modules/meta/blog v0.1.2 h1:g67mny9sqvbMyZANPeg+71WFTSmg
 github.com/razonyang/hb/modules/meta/blog v0.1.2/go.mod h1:4CHKDGZr3/s5OMJN54AocDWMVhKnz07cP1PsPkkoOgg=
 github.com/razonyang/hb/modules/meta/content v0.1.0 h1:dBxzXXJNaPcS31IyV9meuGQxvlfcC47OyVgJhmjLffc=
 github.com/razonyang/hb/modules/meta/content v0.1.0/go.mod h1:O1v5inc8GoAUAGD/0WXg2vVOgNlWDKZeBb4BVPeThlI=
-github.com/razonyang/hb/modules/meta/docs v0.1.1 h1:fY/DVveT0o7fb2n3ssfM+YB732QC42l/LVjYvVgAe+8=
-github.com/razonyang/hb/modules/meta/docs v0.1.1/go.mod h1:E37WG3FcGVFrbdPc00KCy+vgMP2fSIRWX3+pcJGTIrE=
+github.com/razonyang/hb/modules/meta/docs v0.1.2 h1:TftVF/yfbAqzUfP7u8DgF1V/Seb8JcC/XjKIMWzuFHE=
+github.com/razonyang/hb/modules/meta/docs v0.1.2/go.mod h1:GMg1Lv6lfaVsaiJobyA6Z3ROtAFF7xQhTckKm9GhAqE=
 github.com/razonyang/hb/modules/meta/footer v0.1.0 h1:hBguI3T+pjFeiXifKzmDVG3S87UfKD0rPp39rJM870A=
 github.com/razonyang/hb/modules/meta/footer v0.1.0/go.mod h1:DpA2BcvKFMsUkolYtGIoC6+edn9aJOT7aw46jdn0X2k=
 github.com/razonyang/hb/modules/meta/header v0.1.0 h1:y9Eztdzg7CUiIxZ+K1GrLrGkvWd3YzShKU3G97iqK4k=
