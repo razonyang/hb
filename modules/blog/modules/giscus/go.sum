@@ -14,6 +14,7 @@ github.com/razonyang/hb/modules/giscus v0.1.1 h1:pRZj7nMBxeVAD0wR1c0hFFIsI4TZjwl
 github.com/razonyang/hb/modules/giscus v0.1.1/go.mod h1:kMP4u0J0CJ4LunuwiiJfDqHj4KIHWE7H64rlC8R7YEM=
 github.com/razonyang/hb/modules/header v0.1.0 h1:dZypRdabo/+NPsmyQP5o5Va7eTHo/1ZHnwr1sq+Se/8=
 github.com/razonyang/hb/modules/header v0.1.0/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hugo-mod-giscus v1.3.1 h1:/7ojODfEV6gfdWLeUuYNlru3tcrUO7k/t5J//pNS9Ro=
 github.com/razonyang/hugo-mod-giscus v1.3.1/go.mod h1:r3tKVPIdUg0xZbAfXZt8pMvwYpxkTT+J0q582qaZV38=
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
