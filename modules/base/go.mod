@@ -9,6 +9,6 @@ require (
 	github.com/razonyang/hugo-mod-icons v0.5.0 // indirect
 	github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0 // indirect
 	github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 // indirect
-	github.com/razonyang/hugopress v0.5.0 // indirect
+	github.com/razonyang/hugopress v0.7.1 // indirect
 	github.com/twbs/icons v1.10.3 // indirect
 )
