@@ -8,6 +8,7 @@ github.com/razonyang/hb/modules/base v0.4.0 h1:zkgHLltX3Ax4EwEfMgH3eQgDMH8TmSPPM
 github.com/razonyang/hb/modules/base v0.4.0/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
 github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugo-mod-icons-bootstrap v0.2.0 h1:oPXiChKQxtC5xj9DZLrLlERZOtSQr4j/Iup4AI2Se5s=
 github.com/razonyang/hugo-mod-icons-bootstrap v0.2.0/go.mod h1:SUvnZyVLycwUSLDFdmehibozDym6yT/xfEaC/US0wHE=
 github.com/razonyang/hugo-mod-idb v0.1.1 h1:azGBeE6ScPyrpuhXfSQenOIiyZK5xF8705z3CfWa3b4=
