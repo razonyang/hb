@@ -29,5 +29,6 @@ github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETM
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
 github.com/razonyang/hugopress v0.5.0 h1:3cUSiFQvjM9v4mkqVYdApEMLs7yB2B8vQg1ALV54CCw=
 github.com/razonyang/hugopress v0.5.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
 github.com/twbs/icons v1.10.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
