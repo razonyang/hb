@@ -6,8 +6,8 @@ github.com/razonyang/hb/modules/base v0.4.0 h1:zkgHLltX3Ax4EwEfMgH3eQgDMH8TmSPPM
 github.com/razonyang/hb/modules/base v0.4.0/go.mod h1:rfidPXOv6nLUfBER02bFgfNd7sdgf30ZVX7vGK7vLxA=
 github.com/razonyang/hb/modules/carousel v0.2.0 h1:/JWEYEbpFBnRUoRxVO4TvWcYa+UtFbt/XLh1LoO5Blc=
 github.com/razonyang/hb/modules/carousel v0.2.0/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
-github.com/razonyang/hb/modules/docs v0.2.3 h1:l4aPV2/FVJ6GpZszAJEDx2cG4aNS/TGjJTMi9Ry2TL4=
-github.com/razonyang/hb/modules/docs v0.2.3/go.mod h1:1jeBGqvtnJgou0k/fiwHji7z6wFpW1mdBwJMZeSqQoI=
+github.com/razonyang/hb/modules/docs v0.2.4 h1:TsiQg3qaOw8hP/DVKtDOp+QWyDbYVU8azjz67AFWFKI=
+github.com/razonyang/hb/modules/docs v0.2.4/go.mod h1:OL8d97LBI0v6XX5PXPcqVRiBl66woiE6x99NS8FJP6w=
 github.com/razonyang/hb/modules/docs/modules/breadcrumb v0.1.0 h1:l2otXQg2rOw6PPAcVq5dT/U7b6YvaSh1xavgTRNPnlc=
 github.com/razonyang/hb/modules/docs/modules/breadcrumb v0.1.0/go.mod h1:tjWBCEWymEmPBmTLAQQStRo6TeMWGL2VKYoGRDlBc/Q=
 github.com/razonyang/hb/modules/docs/modules/doc-nav v0.1.3 h1:kcs6+MrgqjBgijMpKyDQBJXv4kWGcjPP0XudfTz2KhY=
