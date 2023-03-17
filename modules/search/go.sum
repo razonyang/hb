@@ -8,6 +8,7 @@ github.com/razonyang/hugo-mod-search v0.14.0 h1:ao9Y4sfqkWrgVmfQU4EQ+tuzX3Midb5l
 github.com/razonyang/hugo-mod-search v0.14.0/go.mod h1:rlFETVHvlAXhq4Q/n+0CLttmhz72XdoY2IbOI5p8Bxg=
 github.com/razonyang/hugo-mod-search v0.15.1 h1:dPpOI/5ztLQAlSrGZufsRaZzS9jPbJkQSq/dFPwMYXA=
 github.com/razonyang/hugo-mod-search v0.15.1/go.mod h1:rlFETVHvlAXhq4Q/n+0CLttmhz72XdoY2IbOI5p8Bxg=
+github.com/razonyang/hugo-mod-search v0.15.2/go.mod h1:rlFETVHvlAXhq4Q/n+0CLttmhz72XdoY2IbOI5p8Bxg=
 github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=
 github.com/razonyang/hugopress v0.6.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
