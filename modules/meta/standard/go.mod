@@ -8,7 +8,7 @@ require (
 	github.com/razonyang/hb/modules/base v0.4.0 // indirect
 	github.com/razonyang/hb/modules/breadcrumb v0.1.2 // indirect
 	github.com/razonyang/hb/modules/carousel v0.2.0 // indirect
-	github.com/razonyang/hb/modules/meta/blog v0.1.1 // indirect
+	github.com/razonyang/hb/modules/meta/blog v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/content v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect

@@ -10,8 +10,8 @@ github.com/razonyang/hb/modules/breadcrumb v0.1.2 h1:c0byDvofHgruxJZLpLcm1TpttMr
 github.com/razonyang/hb/modules/breadcrumb v0.1.2/go.mod h1:+7kXjvL1O7cRpCdz9oVxEKfes/N41uvRAC6eh5OpqV8=
 github.com/razonyang/hb/modules/carousel v0.2.0 h1:/JWEYEbpFBnRUoRxVO4TvWcYa+UtFbt/XLh1LoO5Blc=
 github.com/razonyang/hb/modules/carousel v0.2.0/go.mod h1:XrkUuMxnsIy/A1XkMPsAKytqnHKDsW4QhC9yX/sQMXo=
-github.com/razonyang/hb/modules/meta/blog v0.1.1 h1:uW1wANyNwSghnONWDcg176fd75LjJrJ22LRK+mu+JYo=
-github.com/razonyang/hb/modules/meta/blog v0.1.1/go.mod h1:ZILXpaLrNZ1ojZRnG03b8EqL/TrUymSV9FAxF71rljc=
+github.com/razonyang/hb/modules/meta/blog v0.1.2 h1:g67mny9sqvbMyZANPeg+71WFTSmgZaudwtzLoAkmvhM=
+github.com/razonyang/hb/modules/meta/blog v0.1.2/go.mod h1:4CHKDGZr3/s5OMJN54AocDWMVhKnz07cP1PsPkkoOgg=
 github.com/razonyang/hb/modules/meta/content v0.1.0 h1:dBxzXXJNaPcS31IyV9meuGQxvlfcC47OyVgJhmjLffc=
 github.com/razonyang/hb/modules/meta/content v0.1.0/go.mod h1:O1v5inc8GoAUAGD/0WXg2vVOgNlWDKZeBb4BVPeThlI=
 github.com/razonyang/hb/modules/meta/footer v0.1.0 h1:hBguI3T+pjFeiXifKzmDVG3S87UfKD0rPp39rJM870A=
