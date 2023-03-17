@@ -14,7 +14,7 @@ require (
 	github.com/razonyang/hb/modules/code-block-panel v0.1.1 // indirect
 	github.com/razonyang/hb/modules/meta/blog v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/content v0.1.0 // indirect
-	github.com/razonyang/hb/modules/meta/docs v0.1.1 // indirect
+	github.com/razonyang/hb/modules/meta/docs v0.1.2 // indirect
 	github.com/razonyang/hb/modules/meta/footer v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/header v0.1.0 // indirect
 	github.com/razonyang/hb/modules/meta/seo v0.1.0 // indirect
