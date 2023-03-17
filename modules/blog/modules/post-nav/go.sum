@@ -2,6 +2,7 @@ github.com/razonyang/hb v0.4.0 h1:R27SuiRdL/YiInQRweWS8XYa9jmb4Q64NSf+3a8W2TI=
 github.com/razonyang/hb v0.4.0/go.mod h1:X02luEAFN9eoQTNdlef8xbWIw75UBibtde3FyoA8kaM=
 github.com/razonyang/hb v0.8.0 h1:JRiKwtRHiAP6J4NbQJX4htqk3dpoWcqUoZf0gppTqBU=
 github.com/razonyang/hb v0.8.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
+github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hb/modules/blog v0.1.0 h1:/9MO7Zy6XR0Y3MLVGMpXN+ORhn9zF3gDQDUts+M9bRU=
 github.com/razonyang/hb/modules/blog v0.1.0/go.mod h1:Kj7KwC4q/h12sZpXsnevvu++AG+rSw2B7fOU5u5u+F0=
 github.com/razonyang/hb/modules/blog v0.7.1 h1:NQ+Wl0XOnMNXa1oODa/Qgx+17sifRiDDJ6V0k++R/WE=
