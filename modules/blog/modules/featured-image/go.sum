@@ -12,5 +12,6 @@ github.com/razonyang/hb/modules/footer v0.2.3 h1:i7DO2PIwHfYo+kaEeTcVV15uxehuLx/
 github.com/razonyang/hb/modules/footer v0.2.3/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
 github.com/razonyang/hb/modules/header v0.1.8 h1:1lf5b79ZUFipBTQHqzUYZbfZVDSiqp3YVq/TltdbO5k=
 github.com/razonyang/hb/modules/header v0.1.8/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
+github.com/razonyang/hb/modules/header v0.1.9/go.mod h1:YmZahPEMA0mXazZmZ4j7vB9zoAdZC7ak4Qws5CvVqbo=
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
