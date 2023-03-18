@@ -1,19 +1,21 @@
-{{- with .Params.images }}
-  <img
-    src="{{ index . 0 | absURL }}"
-    class="hb-blog-post-card-img card-img-top"
-    alt="{{ $.Title }}" />
-{{- else }}
-  {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
-  {{- with $thumbnail -}}
+<div class="card-img-top overflow-hidden">
+  {{- with .Params.images }}
     <img
-      src="{{ .Permalink }}"
-      class="hb-blog-post-card-img card-img-top"
+      src="{{ index . 0 | absURL }}"
+      class="hb-blog-post-card-img"
       alt="{{ $.Title }}" />
   {{- else }}
-    <div
-      class="hb-blog-post-card-default-img card-img-top d-flex align-items-center justify-content-center">
-      NO IMAGE
-    </div>
-  {{- end }}
-{{- end -}}
+    {{- $thumbnail := partialCached "hb/functions/page-thumbnail" . . -}}
+    {{- with $thumbnail -}}
+      <img
+        src="{{ .Permalink }}"
+        class="hb-blog-post-card-img"
+        alt="{{ $.Title }}" />
+    {{- else }}
+      <div
+        class="hb-blog-post-card-default-img d-flex align-items-center justify-content-center">
+        NO IMAGE
+      </div>
+    {{- end }}
+  {{- end -}}
+</div>
