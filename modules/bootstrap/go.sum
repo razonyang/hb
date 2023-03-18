@@ -13,3 +13,4 @@ github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4h
 github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0 h1:DCMA8MUdo0eRQGTmlBGzCGFTThYv9hSLsRGBdKrWtJ8=
 github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.1.0/go.mod h1:qpjpOVApH3ioWClhE05ja646/w6Wy4lz2mUA16JofEI=
+github.com/razonyang/hugo-mod-icons/vendors/bootstrap v0.3.0/go.mod h1:Trbpo1D/X/yRvQ7vWVEwePvcERoxA9JVYKe7wzlh/hA=
