@@ -15,6 +15,7 @@ github.com/razonyang/hugo-mod-idb v0.1.1 h1:azGBeE6ScPyrpuhXfSQenOIiyZK5xF8705z3
 github.com/razonyang/hugo-mod-idb v0.1.1/go.mod h1:+CxIx22+zAP2bOewK04EHly8bW5VeSYdoy8zmy6UL64=
 github.com/razonyang/hugo-mod-pwa v0.3.3 h1:eK1QTz4B/qjWoWgb1fE3gvBORMNU9E9PiBb6t7XRgow=
 github.com/razonyang/hugo-mod-pwa v0.3.3/go.mod h1:HJvn8dWazSjsk+5Zngq0v2+/Osf20tNmftwmw69rB3w=
+github.com/razonyang/hugo-mod-pwa v0.3.4/go.mod h1:zowdF1fNI8zlTuOJtarfX0n13dbqlbpeT3Q4P2uPfXk=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=
