@@ -3,6 +3,7 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101/go.mod h1:Z5Bhe4pf
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/razonyang/hb/modules/docs v0.2.0 h1:6MvPNLcAba48rSPKxextiNLwwGf49D5FZ+ttmPONwEg=
 github.com/razonyang/hb/modules/docs v0.2.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
+github.com/razonyang/hb/modules/docs v0.2.4/go.mod h1:OL8d97LBI0v6XX5PXPcqVRiBl66woiE6x99NS8FJP6w=
 github.com/razonyang/hb/modules/heading-sign v0.1.0 h1:NTjdLY7zfCFOcoqoUXnd3yq1zjMWt0tXZNSpFDyWxVA=
 github.com/razonyang/hb/modules/heading-sign v0.1.0/go.mod h1:nTda94YVNBe2v7JVFnFpm3gTIQ2iyR+gFwJvwmH+qIs=
 github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+buSb5NyFJc=
