@@ -5,6 +5,7 @@ github.com/razonyang/hb/modules/docs v0.1.0 h1:CdSNQ1MTHi4wegMVxjB5lPqOntql15Ns8
 github.com/razonyang/hb/modules/docs v0.1.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
 github.com/razonyang/hb/modules/docs v0.2.0 h1:6MvPNLcAba48rSPKxextiNLwwGf49D5FZ+ttmPONwEg=
 github.com/razonyang/hb/modules/docs v0.2.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
+github.com/razonyang/hb/modules/docs v0.2.4/go.mod h1:OL8d97LBI0v6XX5PXPcqVRiBl66woiE6x99NS8FJP6w=
 github.com/razonyang/hb/modules/giscus v0.1.0 h1:rfFVNSJbvhuhx9VXI1QRdlYn86iJ50qZNfeCHQ9KP0Q=
 github.com/razonyang/hb/modules/giscus v0.1.0/go.mod h1:kMP4u0J0CJ4LunuwiiJfDqHj4KIHWE7H64rlC8R7YEM=
 github.com/razonyang/hb/modules/giscus v0.1.1 h1:pRZj7nMBxeVAD0wR1c0hFFIsI4TZjwloelbldtxajZQ=

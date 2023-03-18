@@ -6,6 +6,7 @@ github.com/razonyang/hb/modules/docs v0.1.0 h1:CdSNQ1MTHi4wegMVxjB5lPqOntql15Ns8
 github.com/razonyang/hb/modules/docs v0.1.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
 github.com/razonyang/hb/modules/docs v0.2.0 h1:6MvPNLcAba48rSPKxextiNLwwGf49D5FZ+ttmPONwEg=
 github.com/razonyang/hb/modules/docs v0.2.0/go.mod h1:uC1mMpJ+rRJddakgWYJ6VMgC1wFJmF/atvB2i9zlajI=
+github.com/razonyang/hb/modules/docs v0.2.4/go.mod h1:OL8d97LBI0v6XX5PXPcqVRiBl66woiE6x99NS8FJP6w=
 github.com/razonyang/hb/modules/utterances v0.1.0 h1:Gv+LC2ZnNMkUA7ilPqU056uK36uVtz60MZmvzTlhhyI=
 github.com/razonyang/hb/modules/utterances v0.1.0/go.mod h1:CijGTdIcVQhI3LGjvb7saeTjfiKU8PXUGYDs/+Ig3Y4=
 github.com/razonyang/hb/modules/utterances v0.1.1 h1:j/DUl+sWc7aW9Kea9D6HBxACP1zqSnkdvXtgvvZARNs=
