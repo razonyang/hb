@@ -12,6 +12,7 @@ github.com/razonyang/hb/modules/utterances v0.1.1 h1:j/DUl+sWc7aW9Kea9D6HBxACP1z
 github.com/razonyang/hb/modules/utterances v0.1.1/go.mod h1:CijGTdIcVQhI3LGjvb7saeTjfiKU8PXUGYDs/+Ig3Y4=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
 github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugo-mod-utterances v1.1.1 h1:JHRFqEpEMwHsaoIEGjHkzfUqWLFRcXTuSiBnaPH0zG4=
 github.com/razonyang/hugo-mod-utterances v1.1.1/go.mod h1:msg5TClLjTMB2qUzORn5OYE7lEOqFufVtGU2dP2+HLI=
 github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=

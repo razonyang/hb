@@ -12,6 +12,7 @@ github.com/razonyang/hugo-mod-giscus v1.3.1 h1:/7ojODfEV6gfdWLeUuYNlru3tcrUO7k/t
 github.com/razonyang/hugo-mod-giscus v1.3.1/go.mod h1:r3tKVPIdUg0xZbAfXZt8pMvwYpxkTT+J0q582qaZV38=
 github.com/razonyang/hugo-mod-icons v0.3.0 h1:z9kgC00LDV4QPlK6QgIW8E/iALvuoUW/tIEhlgg+D3w=
 github.com/razonyang/hugo-mod-icons v0.3.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
+github.com/razonyang/hugo-mod-icons v0.5.0/go.mod h1:4atUyrOOKz1CnywT6qdUy3KoK4hcsM/JnS/EvqDWgnY=
 github.com/razonyang/hugopress v0.6.0 h1:cQaCTTJGMt4bwZRzIxwKnxHirQn9aoanCw+xRSOC6Mw=
 github.com/razonyang/hugopress v0.6.0/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
