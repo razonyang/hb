@@ -13,6 +13,7 @@ github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0u
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
 github.com/razonyang/simple-icons v8.6.0+incompatible h1:5F0ZraY2piumTBEPoi0dfNY8QE1w9H84g3U400xPTog=
 github.com/razonyang/simple-icons v8.6.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
+github.com/razonyang/simple-icons v8.7.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
 github.com/simple-icons/simple-icons v2.17.1+incompatible h1:bZgl1gWxwNGgM57/RS50pb/6tGFXW6Jr95kYaZwvGJ0=
 github.com/simple-icons/simple-icons v2.17.1+incompatible/go.mod h1:oOgUUt8yVYOso/wEBi2ojfZP2MU/xxiNccIpaE+jCvE=
 github.com/twbs/icons v1.10.3 h1:8i0wcDkk04KXd2ofLtMHUERkA5OkrpAzDyBVv/PJaL0=

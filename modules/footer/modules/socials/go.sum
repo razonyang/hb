@@ -14,6 +14,7 @@ github.com/razonyang/hugo-mod-base v0.3.0 h1:+S1pYhACtACsxUIvvBHSP8KiCcqHW1kl+bu
 github.com/razonyang/hugo-mod-base v0.3.0/go.mod h1:ZcaKeMZdNIRcijaDnpzluS5CJyUwWl42FEbtVo5UKZE=
 github.com/razonyang/simple-icons v8.6.0+incompatible h1:5F0ZraY2piumTBEPoi0dfNY8QE1w9H84g3U400xPTog=
 github.com/razonyang/simple-icons v8.6.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
+github.com/razonyang/simple-icons v8.7.0+incompatible/go.mod h1:wQqQhbcK5GWujo4xzio0cQMufqwFVjjU+g3TwHd2iYU=
 github.com/simple-icons/simple-icons v2.17.1+incompatible h1:bZgl1gWxwNGgM57/RS50pb/6tGFXW6Jr95kYaZwvGJ0=
 github.com/simple-icons/simple-icons v2.17.1+incompatible/go.mod h1:oOgUUt8yVYOso/wEBi2ojfZP2MU/xxiNccIpaE+jCvE=
 github.com/twbs/bootstrap v5.3.0-alpha1+incompatible h1:TWdQPnyCB2GbvtvDglzVbOZEiXD7WgXOq8hH/mk2KKE=
