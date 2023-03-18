@@ -4,6 +4,7 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
 github.com/razonyang/hb/modules/blog v0.11.0 h1:UH/+tUECB+f5OhQpru2GnKTmpzJdjHvauxhLnK8owVc=
 github.com/razonyang/hb/modules/blog v0.11.0/go.mod h1:7fK5IT7HLwWnoqDt/7uTt/oePE+/vKtCXCgyysk+1Hc=
+github.com/razonyang/hb/modules/blog v0.11.1/go.mod h1:7fK5IT7HLwWnoqDt/7uTt/oePE+/vKtCXCgyysk+1Hc=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0 h1:/M6dE7Ua1BABtcNsDk7jLrbn4TRNiY11UzWLr47qmqY=
 github.com/razonyang/hb/modules/blog/modules/breadcrumb v0.1.0/go.mod h1:U/HttkZXIaJCwR3WZU4i4Breh0fy1LoV8EVNnE4qSx0=
 github.com/razonyang/hb/modules/blog/modules/featured-image v0.1.2 h1:Phq+jtVn7u8PlpnX5YawvYRps87lT8fJSX5x1iO8nIg=
@@ -24,3 +25,4 @@ github.com/razonyang/hugo-mod-gravatar v1.1.1 h1:3GwqfsC5qNH91ETWPZfCXJFDp2xoO57
 github.com/razonyang/hugo-mod-gravatar v1.1.1/go.mod h1:BZxjfRSkY9CWBzFDbUL/7tIB7IuLnkTExzzAMgRqUys=
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETMd3a5NH0NIFUZqx7rjV0A=
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
+github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

@@ -6,6 +6,7 @@ github.com/razonyang/hb v0.9.0 h1:0nvJBhAhZjvesUj9mSP2nMmxuHjCeHiqv8sU0QRAxfg=
 github.com/razonyang/hb v0.9.0/go.mod h1:crYJai/LDZrBck1+kz2zVLq7Q2+Khuvo0pbMYDmNDtM=
 github.com/razonyang/hb/modules/blog v0.11.0 h1:UH/+tUECB+f5OhQpru2GnKTmpzJdjHvauxhLnK8owVc=
 github.com/razonyang/hb/modules/blog v0.11.0/go.mod h1:7fK5IT7HLwWnoqDt/7uTt/oePE+/vKtCXCgyysk+1Hc=
+github.com/razonyang/hb/modules/blog v0.11.1/go.mod h1:7fK5IT7HLwWnoqDt/7uTt/oePE+/vKtCXCgyysk+1Hc=
 github.com/razonyang/hb/modules/footer v0.2.5 h1:/rxazAKu5gMKOjthH3iVIIBYWcx5xgqOb87M8+tZIRo=
 github.com/razonyang/hb/modules/footer v0.2.5/go.mod h1:EsK5y6BHFb2bQ94nwbi/XKmOAq9Axs5BkBpxZ6ydEY0=
 github.com/razonyang/hb/modules/header v0.1.9 h1:BdxkH3j1AeIDY74k5JX/zeRzQrNbcGqEMls2j7uwUGw=
@@ -19,3 +20,4 @@ github.com/razonyang/hugo-mod-seo/modules/base v0.2.0 h1:RT6sCmy2VRyiQVHAOKmWETM
 github.com/razonyang/hugo-mod-seo/modules/base v0.2.0/go.mod h1:aUtXKObukremidQQellT5v8LfABlSMsUM3OYeut9Vxs=
 github.com/razonyang/hugopress v0.7.1 h1:5d9H2kR1lHj/k8AwU5SA5RGL3lC5KaA85B+vn0uikWQ=
 github.com/razonyang/hugopress v0.7.1/go.mod h1:vbHm/Fv59XztrpuCo9TUQwuH4ZWES9zWns7n5GSZn7k=
+github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
